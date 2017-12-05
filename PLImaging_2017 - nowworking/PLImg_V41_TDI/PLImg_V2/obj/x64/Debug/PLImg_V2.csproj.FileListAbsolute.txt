@@ -1,0 +1,430 @@
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe.config
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll.config
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\DALSA.SaperaLT.SapClassBasic.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.GL.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Windows.Interactivity.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.DataGrid.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LanguageExt.Core.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.pdb
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.GL.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.pdb
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.pdb
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.pdb
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.xml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ja\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sk\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\tr\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csprojResolveAssemblyReference.cache
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\Icons.baml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.g.cs
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.g.cs
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_Content.g.cs
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.cache
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.lref
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.baml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.baml
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.g.resources
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.Properties.Resources.resources
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csproj.GenerateResource.Cache
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLInspector\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe.config
+E:\gitpro\PLImaging_2017\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLImaging_2017\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe.config
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csprojResolveAssemblyReference.cache
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\Icons.baml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.g.cs
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.g.cs
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_Content.g.cs
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.cache
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.lref
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll.config
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\DALSA.SaperaLT.SapClassBasic.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.GL.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Windows.Interactivity.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.DataGrid.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LanguageExt.Core.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.GL.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.pdb
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.xml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ja\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sk\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\tr\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.baml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.baml
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.g.resources
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.Properties.Resources.resources
+E:\gitpro\PLImaging_2017 - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csproj.GenerateResource.Cache
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe.config
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csprojResolveAssemblyReference.cache
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\Icons.baml
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.g.cs
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.g.cs
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_Content.g.cs
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.cache
+E:\gitpro\PLImaging_2017 - Copy - Copy\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.lref
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csprojResolveAssemblyReference.cache
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\Icons.baml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.g.cs
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\UC_CamComunication.g.cs
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.g.cs
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_Content.g.cs
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.cache
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.lref
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\concrt140.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\cvextern.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\msvcp140.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\opencv_ffmpeg320_64.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\vcruntime140.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll.config
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe.config
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\AccordLibBased.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ApplicationUtilTool.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\CommonExtension.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\DALSA.SaperaLT.SapClassBasic.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\EmguCV_Extension.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineLib.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ModelLib.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\SpeedyCoding.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Windows.Interactivity.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\UtilTool.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.DataGrid.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LanguageExt.Core.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NETOmniDriver-NET40.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.xml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ja\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sk\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\tr\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.baml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.baml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\StyleLib.baml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\UC_CamComunication.baml
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.g.resources
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.Properties.Resources.resources
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csproj.GenerateResource.Cache
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.exe
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\EmguCvExtension.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ProcessingLib.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ProcessingLib.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ChipProcessingLib.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\VisionTool.dll
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ChipProcessingLib.pdb
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\WIn_AreaView.g.cs
+E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\WIn_AreaView.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe.config
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.exe
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\concrt140.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\cvextern.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\msvcp140.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\opencv_ffmpeg320_64.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\x64\vcruntime140.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll.config
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.exe
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\PLImg_V2.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ApplicationUtilTool.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ChipProcessingLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\CommonExtension.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\DALSA.SaperaLT.SapClassBasic.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\EmguCvExtension.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ModelLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ProcessingLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\SpeedyCoding.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Windows.Interactivity.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.DataGrid.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\EmguCV_Extension.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\VisionTool.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LanguageExt.Core.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NETOmniDriver-NET40.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ProcessingLib.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ChipProcessingLib.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MachineControl.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.IO.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Math.Core.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Accord.Statistics.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.UI.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\Emgu.CV.World.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\LiveCharts.Wpf.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\MahApps.Metro.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\NationalInstruments.VisaNS.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\OpenTK.GLControl.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ZedGraph.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Linq.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Interfaces.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\System.Reactive.Core.xml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\de\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\es\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\fr\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\hu\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\it\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ja\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\pt\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\ru\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sk\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\sv\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\tr\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csprojResolveAssemblyReference.cache
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\Icons.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Resources\IconsNonShared.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Align.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\UC_CamComunication.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\WIn_AreaView.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_Content.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.cache
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2_MarkupCompile.lref
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\App.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\Align.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\MainWindow.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\StyleLib.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\UC_CamComunication.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\WIn_AreaView.baml
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.g.resources
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.Properties.Resources.resources
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\PLImg_V2\obj\x64\Debug\PLImg_V2.csproj.GenerateResource.Cache

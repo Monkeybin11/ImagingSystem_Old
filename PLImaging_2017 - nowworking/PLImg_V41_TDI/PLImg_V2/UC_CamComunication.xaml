@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="PLImg_V2.UC_CamComunication"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLImg_V2"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="300">
+    <Grid>
+        <DockPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="12*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <UniformGrid Columns="4">
+                    <Button x:Name="btnArea"     Content="Area" Margin="5" Click="btnArea_Click" Style="{StaticResource btnsidestyle}"/>
+                    <Button x:Name="btnLine"     Content="Line" Margin="5" Click="btnLine_Click" Style="{StaticResource btnsidestyle}" />
+                    <Button x:Name="btnViewArea" Content="View" Margin="5" Click="btnViewArea_Click"  Style="{StaticResource btnsidestyle}" />
+                    <Button x:Name="btnAlign" Content="Align" Margin="5" Click="btnAlign_Click"  Style="{StaticResource btnsidestyle}" />
+                </UniformGrid>
+                <TextBox x:Name="textBox" TextWrapping="WrapWithOverflow" Grid.Row="1" Text="TextBox"  VerticalScrollBarVisibility="Auto" />
+
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="SteelBlue" Click="btnSend_Click"/>
+                    <TextBox x:Name="txbmsg" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" KeyUp="WevtSend"/>
+                </Grid>
+
+            </Grid>
+        </DockPanel>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,11 @@
+E:\gitpro\PLImaging_2017 - Copy - Copy\ProcessingLib\obj\Debug\ProcessingLib.csprojResolveAssemblyReference.cache
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\obj\Debug\ProcessingLib.csprojResolveAssemblyReference.cache
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\ProcessingLib.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\ProcessingLib.pdb
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\CommonExtension.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\Emgu.CV.UI.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\Emgu.CV.UI.GL.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\Emgu.CV.World.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\Debug\EmguCV_Extension.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\obj\Debug\ProcessingLib.dll
+E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\obj\Debug\ProcessingLib.pdb
