@@ -14,11 +14,14 @@ using PLImg_V2.Data;
 using EmguCvExtension;
 using ChipProcessingLib;
 using System.IO.Ports;
+using System.Threading;
 
 namespace PLImg_V2
 {
     public partial class Core
     {
+        public object key = new object();
+
         #region Event
         public event TferImgArr        evtRealimg   ;
         public event TferTrgImgArr     evtTrgImg    ;
@@ -155,16 +158,17 @@ namespace PLImg_V2
 
             StopStgBuffer = new Action<ScanConfig>( ( config ) =>
             {
-                if ( config == ScanConfig.Trigger_4 )
-                { Stg.StopTrigger( 4 ); }
-                else if ( config == ScanConfig.Trigger_1 )
-                {
-                    Stg.StopTrigger( 5 );
-
-                }
-                else
+                if ( config == ScanConfig.Trigger_1 )
                 {
                     Stg.StopTrigger( 3 );
+                }
+                else if ( config == ScanConfig.Trigger_2 )
+                {
+                    Stg.StopTrigger( 4 );
+                }
+                else if ( config == ScanConfig.Trigger_4 )
+                {
+                    Stg.StopTrigger( 5 );
                 }
             } );
         }
@@ -225,20 +229,25 @@ namespace PLImg_V2
         {
             try
             {
-
-                StopStgBuffer( CurrentConfig );
+                "Get Image now".Print();
+           
+                Thread.Sleep( 300 );
                 // Extract Final Image
-                var Buf2Img = FnBuff2Img( Cam.GetBuffWH()["H"] , Cam.GetBuffWH()["W"] );
-                var currentbuff = FullBuffdata(Cam.Buffers);
-
-                var temp = Buf2Img( currentbuff , 1 );
-                //.Map( x => FlgIsScatter ? x : x.Normalize(30));
-                temp.ROI = TrigScanData.RoiList[CurrentConfig][TrigCount];
-
-                temp = temp.Copy();
-                if ( FlgRemoveBack )
+                var count = TrigCount;
+                Task.Run( () =>
                 {
-                    var grad = temp.Clone()
+                    var Buf2Img = FnBuff2Img( Cam.GetBuffWH()["H"] , Cam.GetBuffWH()["W"] );
+                    var currentbuff = FullBuffdata(Cam.Buffers);
+
+                    var temp = Buf2Img( currentbuff , 1 )
+                                    .Map( x => FlgIsScatter ? x.Normalize((byte)SCBias) : x.Normalize((byte)PLBias));
+                    if ( CurrentConfig != ScanConfig.Trigger_1 )
+                    { temp.ROI = TrigScanData.RoiList[CurrentConfig][count]; }
+
+                    temp = temp.Copy();
+                    if ( FlgRemoveBack )
+                    {
+                        var grad = temp.Clone()
                     .Median(131)
                     .Median(131)
                     .Median(131)
@@ -246,48 +255,49 @@ namespace PLImg_V2
                     .Median(131)
                     .Not();
 
-                    temp = temp * 0.5 + grad * 0.5;
-                }
+                        temp = temp * 0.5 + grad * 0.5;
+                    }
 
-                //temp = FlgIsScatter ? temp.Normalize( (byte)SCBias ).Gamma( 2 ) : temp.Normalize( (byte)PLBias ).Gamma( 2 );
-
-                //string plpath = @"C:\gangImg\PLSample_Correted_Complete.png";
-                //string scpath = @"C:\gangImg\SCSample_Correted_Complete.png";
-
-                //var temp = FlgIsScatter ? new Image<Gray,byte>(scpath) :
-                //                        new Image<Gray,byte>(plpath);
-
-
-                // Set Config
-                if ( FlgIsScatter )
-                {
-                    //ScanedPLImage.Add( temp );
-                    evtScterImg( temp, TrigCount );
-                    ProcConfig = ScterConfig.GetInstance();
-                }
-                else
-                {
-                    //ScanedSCImage.Add( temp );
-                    evtTrgImg( temp, TrigCount );
-                    ProcConfig = PLConfig.GetInstance();
-                }
+                    if ( FlgIsScatter )
+                    {
+                        //ScanedPLImage.Add( temp );
+                        evtScterImg( temp, count );
+                        ProcConfig = ScterConfig.GetInstance();
+                    }
+                    else
+                    {
+                        //ScanedSCImage.Add( temp );
+                        evtTrgImg( temp, count );
+                        ProcConfig = PLConfig.GetInstance();
+                    }
+                    Task.Run( () => ChipProcCore.ProcRun2( temp, x => x, ProcConfig ) );
+                } );
 
                 // Get Index Image from event 
 
-                Task.Run( () => ChipProcCore.ProcRun2( temp, x => x, ProcConfig ) );
+
                 // 1 Trigger = 1 Buffer
-                TrigCount += 1;
-                if ( TrigCount < TrigLimit )
+                lock ( key )
                 {
-                    StgReadyTrigScan( TrigCount, CurrentConfig );
-                    RunStgBuffer( CurrentConfig );
-                    System.Threading.Thread.Sleep( 500 );
-                    ScanMoveXYstg( "Y", TrigScanData.EndYPos[CurrentConfig], TrigScanData.Scan_Stage_Speed );
-                }
-                else
-                {
-                    Console.WriteLine( "Scan is Done. Will start next scan" );
-                    evtScanEnd();
+                    TrigCount += 1;
+
+                    if ( TrigCount < TrigLimit )
+                    {
+                        "Move Next Position".Print();
+                        StgReadyTrigScan( TrigCount, CurrentConfig );
+                        RunStgBuffer( CurrentConfig );
+                        System.Threading.Thread.Sleep( 2000 );
+                        ScanMoveXYstg( "Y", TrigScanData.EndYPos[CurrentConfig], TrigScanData.Scan_Stage_Speed );
+                        Stg.WaitEps( "Y" )( TrigScanData.EndYPos[CurrentConfig], 0.1 );
+                        System.Threading.Thread.Sleep( 500 );
+                        StopStgBuffer( CurrentConfig );
+                        System.Threading.Thread.Sleep( 3000 );
+                    }
+                    else
+                    {
+                        Console.WriteLine( "Scan is Done. Will start next scan" );
+                        evtScanEnd();
+                    }
                 }
 
             }

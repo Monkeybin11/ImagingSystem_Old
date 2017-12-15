@@ -195,25 +195,12 @@
 
 
                         <DockPanel Grid.Row="1" Width="400" Height="400" Margin="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="True">
-                            <WindowsFormsHost x:Name="windowTrig0" DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxTrig0" Dock="Fill"/>
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="windowTrig1" DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxTrig1" Dock="Fill" />
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="windowTrig2"  DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxTrig2" Dock="Fill"/>
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="windowTrig3"  DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxTrig3" Dock="Fill"/>
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="windowTrig4"  DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxTrig4" Dock="Fill"/>
-                            </WindowsFormsHost>
-
-                            <WindowsFormsHost x:Name="windowTrig5"  DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxTrig5" Dock="Fill"/>
-                            </WindowsFormsHost>
+                            <Image x:Name="imgboxTrig0" Margin="0,0,-1,0"  DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig1" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig2" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig3" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig4" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig5" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                         </DockPanel>
                     </Grid>
                 </Border>
@@ -246,24 +233,12 @@
                         <Label Content="Scaterring Scan" Style="{StaticResource lblBase}"/>
 
                         <DockPanel x:Name="dpnlImgResult" Grid.Row="1" Width="400" Height="400" Margin="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="True">
-                            <WindowsFormsHost x:Name="winScterTrig0" DockPanel.Dock="Left" Margin="0,0,-2,0">
-                                <emgu:ImageBox x:Name="imgboxScterTrig0" Dock="Fill" />
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="winScterTrig1" DockPanel.Dock="Left" >
-                                <emgu:ImageBox x:Name="imgboxScterTrig1" Dock="Fill" />
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="winScterTrig2"  DockPanel.Dock="Left" >
-                                <emgu:ImageBox x:Name="imgboxScterTrig2" Dock="Fill"/>
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="winScterTrig3"  DockPanel.Dock="Left"  >
-                                <emgu:ImageBox x:Name="imgboxScterTrig3" Dock="Fill"/>
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="winScterTrig4"  DockPanel.Dock="Left"  >
-                                <emgu:ImageBox x:Name="imgboxScterTrig4" Dock="Fill"/>
-                            </WindowsFormsHost>
-                            <WindowsFormsHost x:Name="winScterTrig5"  DockPanel.Dock="Left"  >
-                                <emgu:ImageBox x:Name="imgboxScterTrig5" Dock="Fill"/>
-                            </WindowsFormsHost>
+                            <Image x:Name="imgboxScterTrig0" Margin="0,0,-1,0"  DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig1" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig2" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig3" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig4" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig5" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                         </DockPanel>
                     </Grid>
                 </Border>

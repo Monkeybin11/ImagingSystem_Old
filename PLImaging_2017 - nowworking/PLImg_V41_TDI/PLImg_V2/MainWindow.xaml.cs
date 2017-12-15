@@ -29,6 +29,7 @@ using MachineControl.Camera.Dalsa;
 using System.Threading;
 using WaferandChipProcessing;
 using System.Windows.Forms.Integration;
+using static PLImg_V2.ImgProcessingLib;
 
 namespace PLImg_V2
 {
@@ -49,13 +50,13 @@ namespace PLImg_V2
         Align WinAlign = new Align();
         public SeriesCollection seriesbox { get; set; }
         public ChartValues<int> chartV { get; set; }
-        ImageBox[] TrgImgBoxArr;
-        ImageBox[] TrgScterImgBoxArr;
+        Image[] TrgImgBoxArr;
+        Image[] TrgScterImgBoxArr;
         Dictionary<ScanConfig, System.Windows.Controls.RadioButton> SampleConfig;
         Dictionary<string,StageEnableState> StgState;
 
-        List<WindowsFormsHost> ImgWinsList_PL;
-        List<WindowsFormsHost> ImgWinsList_SC;
+        List<Image<Gray,byte>> PLImageList;
+        List<Image<Gray,byte>> SCImageList;
 
         public MainWindow()
         {
@@ -83,47 +84,32 @@ namespace PLImg_V2
 
             ucComunication.evtOpenAreaView += new Action( () => { Core.StartAreaScan(); WinArea.Visibility = Visibility.Visible; }  );
             ucComunication.evtOpenAlignView += new Action( () => { Core.StartAlignScan(); WinAlign.Visibility = Visibility.Visible; }  );
-            SetImgWindows();
-
+            PLImageList = new List<Image<Gray, byte>>();
+            SCImageList = new List<Image<Gray, byte>>();
         }
-
-        void SetImgWindows()
-        {
-            ImgWinsList_PL = new List<WindowsFormsHost>();
-            ImgWinsList_SC = new List<WindowsFormsHost>();
-            ImgWinsList_PL.Add(   windowTrig0);
-            ImgWinsList_PL.Add(   windowTrig1);
-            ImgWinsList_PL.Add(   windowTrig2);
-            ImgWinsList_PL.Add(   windowTrig3);
-            ImgWinsList_PL.Add(   windowTrig4);
-            ImgWinsList_PL.Add(   windowTrig5);
-
-            ImgWinsList_SC.Add( winScterTrig0 );
-            ImgWinsList_SC.Add( winScterTrig1 );
-            ImgWinsList_SC.Add( winScterTrig2 );
-            ImgWinsList_SC.Add( winScterTrig3 );
-            ImgWinsList_SC.Add( winScterTrig4 );
-            ImgWinsList_SC.Add( winScterTrig5 );
-        }
-       
 
 
         #region Display
 
         void DisplayTrgImg( Image<Gray , byte> img , int lineNum )
         {
-            TrgImgBoxArr[lineNum].Image = img;
+            PLImageList.Add( img );
+            var reimg = img.Resize( 0.1, Inter.Nearest );
+            this.BeginInvoke( () => TrgImgBoxArr[lineNum].Source = reimg.ToBitmapSource() );
             // ADD vf Value
         }
 
         void DisplayTrgScterImg( Image<Gray, byte> img, int lineNum )
         {
-            TrgScterImgBoxArr[lineNum].Image = img;
+            SCImageList.Add( img );
+            var reimg = img.Resize( 0.1, Inter.Nearest );
+            this.BeginInvoke( () => TrgScterImgBoxArr[lineNum].Source = reimg.ToBitmapSource() );
         }
        
       
         void DisplayBuffNumber(int num)
         {
+            
             lblBuffNum.BeginInvoke(() => lblBuffNum.Content = num.ToString());
         }
 
@@ -183,6 +169,10 @@ namespace PLImg_V2
         {
             Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;
 
+            PLImageList = new List<Image<Gray, byte>>();
+            SCImageList = new List<Image<Gray, byte>>();
+
+
             ucComunication.SetLine();
             Core.TrigScanData.Scan_Stage_Speed = (double)Convert.ToDouble( nudScanSpeed.Value);
             ucComunication.SetLineRate( (int)nudlinerate.Value );
@@ -223,9 +213,9 @@ namespace PLImg_V2
                     break;
 
                 case ScanConfig.Trigger_4:
-                    double w4 =  ( dpnlImgResult.ActualWidth / 6.0);
+                    double w4 =  ( dpnlImgResult.ActualWidth / 5.0);
                     double h4 = dpnlImgResult.ActualHeight;
-                    SetImagesSize( 6, w4, h4 );
+                    SetImagesSize( 5, w4, h4 );
                     break;
             }
         }
@@ -234,18 +224,18 @@ namespace PLImg_V2
         {
             for ( int i = 0; i < visibleCount; i++ )
             {
-                ImgWinsList_PL[i].Width = w;
-                ImgWinsList_PL[i].Height = h;
-                ImgWinsList_SC[i].Width = w;
-                ImgWinsList_SC[i].Height = h;
+                TrgImgBoxArr[i].Width = w;
+                TrgImgBoxArr[i].Height = h;
+                TrgScterImgBoxArr[i].Width = w;
+                TrgScterImgBoxArr[i].Height = h;
             }
 
-            for ( int i = visibleCount; i < ImgWinsList_SC.Count; i++ )
+            for ( int i = visibleCount; i < TrgScterImgBoxArr.Length; i++ )
             {
-                ImgWinsList_PL[i].Width = 0;
-                ImgWinsList_PL[i].Height = h;
-                ImgWinsList_SC[i].Width = 0;
-                ImgWinsList_SC[i].Height = h;
+                TrgImgBoxArr[i].Width = 0;
+                TrgImgBoxArr[i].Height = h;
+                TrgScterImgBoxArr[i].Width = 0;
+                TrgScterImgBoxArr[i].Height = h;
             }
 
         }
@@ -253,35 +243,79 @@ namespace PLImg_V2
 
         private void btnSaveImg_Click( object sender, RoutedEventArgs e )
         {
-            string savePath = "";
-            FolderBrowserDialog fbd = new FolderBrowserDialog();
-            if ( fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK )
+            try
             {
-                savePath = fbd.SelectedPath;
-                for ( int i = 0; i < TrgImgBoxArr.GetLength( 0 ); i++ )
-                {
-                    string filename = savePath + "\\PL_" + i.ToString("D3") + ".png";
-                    TrgImgBoxArr[i].Image?.Save( filename );
 
-                    string filenameScatter = savePath + "\\Scatter_" + i.ToString("D3") + ".png";
-                    TrgScterImgBoxArr[i].Image?.Save( filenameScatter );
-                }
-                try
-                {
-                    var resultpl = TrgImgBoxArr.Select( x => x.Image as Image<Gray,byte>).Select( x => x?.Resize(0.5,Inter.Cubic)).Aggregate((f,s) => s == null ? f : f.ConcateHorizontal(s) );
-                    var resultsc = TrgScterImgBoxArr.Select( x => x.Image as Image<Gray,byte>).Select( x => x?.Resize(0.5,Inter.Cubic)).Aggregate((f,s) => s == null ? f : f.ConcateHorizontal(s) );
-                    
-                    resultpl.Save( savePath + "\\FullPL.png" );
-                    resultsc.Save( savePath + "\\FullSC.png" );
-
-
-                }
-                catch ( Exception ex)
-                {
-                    Console.WriteLine( ex.ToString() );
-                }
+                string savePath = "";
+                FolderBrowserDialog fbd = new FolderBrowserDialog();
+                fbd.SelectedPath = @"E:\00PLAY";
                
+                if ( fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK )
+                {
+                    savePath = fbd.SelectedPath;
+                    for ( int i = 0; i < PLImageList.Count; i++ )
+                    {
+                        string filename = savePath + "\\PL_" + i.ToString("D3") + ".png";
+                        //TrgImgBoxArr[i].Image?.Save( filename );
+                        PLImageList[i].Save( filename );
 
+                       //string filename2 = savePath + "\\PL8_" + i.ToString("D3") + ".png";
+                       //var i8 =PLImageList[i].Resize( 0.8, Inter.Cubic );
+                       //i8.Save( filename2 );
+
+                      
+
+
+                    }
+                    for ( int i = 0; i < SCImageList.Count; i++ )
+                    {
+                        string filenameScatter = savePath + "\\Scatter_" + i.ToString("D3") + ".png";
+                        SCImageList[i].Save( filenameScatter );
+
+                       // string filenameScatter2 = savePath + "\\Scatter8_" + i.ToString("D3") + ".png";
+                       // var i8 =SCImageList[i].Resize( 0.8, Inter.Cubic );
+                       // i8.Save( filenameScatter2 );
+
+
+
+                    }
+                   
+                    try
+                    {
+                        if ( PLImageList.Count != 0 )
+                        {
+                            var resultpl = PLImageList
+                        //.Select( x => x.Image as Image<Gray,byte>)
+                        .Select( x => x?.Resize(0.1,Inter.Cubic))
+                        .Aggregate((f,s) => s == null ? f : f.ConcateHorizontal(s) );
+                            resultpl.Save( savePath + "\\FullPL.png" );
+                        }
+                       
+                        if ( SCImageList.Count != 0 )
+                        {
+                            var resultsc = SCImageList
+                        //.Select( x => (x.Source as BitmapImage).ToMat().ToImage<Gray,byte>())
+                        .Select( x => x?.Resize(0.1,Inter.Cubic))
+                        .Aggregate((f,s) => s == null ? f : f.ConcateHorizontal(s) );
+                            resultsc.Save( savePath + "\\FullSC.png" );
+                        }
+
+                       
+                       
+
+
+                    }
+                    catch ( Exception ex )
+                    {
+                        Console.WriteLine( ex.ToString() );
+                    }
+
+
+                }
+
+            }
+            catch ( Exception )
+            {
             }
         }
         #endregion
@@ -317,7 +351,7 @@ namespace PLImg_V2
      
         void InitImgBox()
         {
-            TrgImgBoxArr = new ImageBox[6];
+            TrgImgBoxArr = new Image[6];
             TrgImgBoxArr[0] = imgboxTrig0;
             TrgImgBoxArr[1] = imgboxTrig1;
             TrgImgBoxArr[2] = imgboxTrig2;
@@ -325,7 +359,7 @@ namespace PLImg_V2
             TrgImgBoxArr[4] = imgboxTrig4;
             TrgImgBoxArr[5] = imgboxTrig5;
 
-            TrgScterImgBoxArr = new ImageBox[6];
+            TrgScterImgBoxArr = new Image[6];
             TrgScterImgBoxArr[0] = imgboxScterTrig0;
             TrgScterImgBoxArr[1] = imgboxScterTrig1;
             TrgScterImgBoxArr[2] = imgboxScterTrig2;
@@ -336,11 +370,11 @@ namespace PLImg_V2
 
             foreach ( var item in TrgImgBoxArr )
             {
-                item.SizeMode = PictureBoxSizeMode.StretchImage;
+                item.Stretch = Stretch.Fill;
             }
             foreach ( var item in TrgScterImgBoxArr )
             {
-                item.SizeMode = PictureBoxSizeMode.StretchImage;
+                item.Stretch = Stretch.Fill;
             }
         }
 
@@ -466,11 +500,10 @@ namespace PLImg_V2
             foreach ( var item in GD.YXZ )
             {
                 Core.Stg.Disable( item )();
-                Core.Stg.Disconnect();
             }
+            Core.Stg.Disconnect()();
             Core.Cam.Freeze();
-            Core.Cam.Disconnect();
-
+            Core.Cam.Disconnect()();
             Environment.Exit( Environment.ExitCode );
         }
 

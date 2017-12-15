@@ -62,7 +62,7 @@
         <DockPanel Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" >
             <Label Content="Area View" Style="{StaticResource lblBase}" DockPanel.Dock="Top"/>
             <WindowsFormsHost x:Name="windowArea"  Margin="0,-2,0,0" VerticalAlignment="Stretch"  HorizontalAlignment="Stretch"  >
-                <emgu:ImageBox x:Name="imgboxArea" Dock="Fill" BorderStyle="FixedSingle" SizeMode="StretchImage" />
+                <emgu:ImageBox x:Name="imgboxArea" Dock="Fill" BorderStyle="FixedSingle" SizeMode="Zoom" />
             </WindowsFormsHost>
         </DockPanel>
     </Grid>

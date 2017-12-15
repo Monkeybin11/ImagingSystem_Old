@@ -24,7 +24,7 @@ namespace PLImg_V2
         public void StartAreaScan()
         {
             var config = ScanConfig.Area;
-            Cam.Disconnect();
+            Cam.Disconnect()();
             CurrentConfig = config;
             StopStgBuffer( config );
             System.Threading.Thread.Sleep( 100 );
@@ -36,7 +36,7 @@ namespace PLImg_V2
         public void StartAlignScan()
         {
             var config = ScanConfig.Align;
-            Cam.Disconnect();
+            Cam.Disconnect()();
             CurrentConfig = config;
             StopStgBuffer( config );
             System.Threading.Thread.Sleep( 100 );
@@ -49,7 +49,7 @@ namespace PLImg_V2
 
         public void StartTrigScan( ScanConfig config )
         {
-            Cam.Disconnect();
+            Cam.Disconnect()();
             CurrentConfig = config;
             TrigLimit = SetTriggerLimit( config );
             TrigCount = 0;
@@ -99,10 +99,10 @@ namespace PLImg_V2
                     return 1;
 
                 case ScanConfig.Trigger_2:
-                    return 2;
+                    return 3;
 
                 case ScanConfig.Trigger_4:
-                    return 6;
+                    return 5;
                 default:
                     return 1;
             }

@@ -23,13 +23,13 @@ namespace PLImg_V2.Data
 
         public double Trigger1StartX  =   93.2;
         public double Trigger2StartX  =   93.2;
-        public double Trigger4StartX  =   22.1*6+1;
+        public double Trigger4StartX  =   22.1*5+5;
 
-        public double Trigger1StartY  =   125;
-        public double Trigger2StartY  =   144;
-        public double Trigger4StartY  =   161;
+        public double Trigger1StartY  =   127;//125;
+        public double Trigger2StartY  =   155;//145;
+        public double Trigger4StartY  =   175;//163;
 
-        public double Trigger1EndY    =   95;
+        public double Trigger1EndY    =   90;
         public double Trigger2EndY    =   75;
         public double Trigger4EndY    =   60;
 
@@ -71,17 +71,16 @@ namespace PLImg_V2.Data
             RoiList = new Dictionary<ScanConfig, List<Rectangle>>();
 
             List<Rectangle> Inch2 = new List<Rectangle>();
-            Inch2.Add( new Rectangle( 95, 0, 12000, 34000 ) );
+            Inch2.Add( new Rectangle( 95, 0  , 12000, 34000 ) );
             Inch2.Add( new Rectangle( 95, 236, 12000, 34000 ) );
             Inch2.Add( new Rectangle( 95, 478, 12000, 34000 ) );
 
             List<Rectangle> Inch4 = new List<Rectangle>();
-            Inch4.Add( new Rectangle( 95, 0, 12000, 64000 ) );
-            Inch4.Add( new Rectangle( 95, 236, 12000, 71000 ) );
-            Inch4.Add( new Rectangle( 95, 478, 12000, 71000 ) );
-            Inch4.Add( new Rectangle( 95, 478, 12000, 71000 ) );
-            Inch4.Add( new Rectangle( 95, 478, 12000, 71000 ) );
-            Inch4.Add( new Rectangle( 95, 478, 12000, 71000 ) );
+            Inch4.Add( new Rectangle(95, 0  , 11905, 59000 ) );
+            Inch4.Add( new Rectangle(95, 236, 11905, 59000 ) );
+            Inch4.Add( new Rectangle(95, 478, 11905, 59000 ) );
+            Inch4.Add( new Rectangle(95, 478, 11905, 59000 ) );
+            Inch4.Add( new Rectangle(95, 478, 11905, 59000 ) );
 
 
             RoiList.Add( ScanConfig.Trigger_2 , Inch2 );

@@ -32,7 +32,7 @@ namespace PLImg_V2
         public event Action<double> evtUpY;
         public event Action<double> evtDwY;
 
-        Core_RStage RCore = new Core_RStage();
+        //Core_RStage RCore = new Core_RStage();
         Image<Gray,byte> CurrentImage;
         double CurrentAngle = 0;
 
@@ -165,7 +165,7 @@ namespace PLImg_V2
 
         private void btnROrigin_Click( object sender, RoutedEventArgs e )
         {
-            RCore.Origin();
+            //RCore.Origin();
         }
 
         private void btnZOrigin_Click( object sender, RoutedEventArgs e )
@@ -175,7 +175,7 @@ namespace PLImg_V2
 
         private void btnAlign_Click( object sender, RoutedEventArgs e )
         {
-            RCore.UpdatePos( -CurrentAngle );
+            //RCore.UpdatePos( -CurrentAngle );
         }
 
         private void btnUpY_Click( object sender, RoutedEventArgs e )
