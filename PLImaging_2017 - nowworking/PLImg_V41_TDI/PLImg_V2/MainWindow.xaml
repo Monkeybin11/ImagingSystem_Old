@@ -142,11 +142,14 @@
                                     </Grid>
                                 </Grid>
                             </TabItem>
-                            <TabItem Header="Cam Parameter Settinf" FontSize="12"  Style="{DynamicResource MenuLevel2}" Selector.Selected="TabItem_Selected" Selector.Unselected="TabItem_Unselected" FontWeight="Bold">
+                            <TabItem Header="Cam Parameter Setting" FontSize="12"  Style="{DynamicResource MenuLevel2}" Selector.Selected="TabItem_Selected" Selector.Unselected="TabItem_Unselected" FontWeight="Bold">
                                 <uc:UC_CamComunication x:Name="ucComunication"/>
                             </TabItem>
-                        </TabControl>
 
+							<TabItem Header="Scan Config" FontSize="12"  Style="{DynamicResource MenuLevel2}" Selector.Selected="TabItem_Selected" Selector.Unselected="TabItem_Unselected" FontWeight="Bold">
+								<uc:UC_ScanConfiguration x:Name="ucScanconfig" />
+							</TabItem>
+						</TabControl>
                     </DockPanel>
                 </Border>
                 <DockPanel Grid.Row="1" Margin="0" >

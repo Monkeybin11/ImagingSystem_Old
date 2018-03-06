@@ -176,7 +176,6 @@ namespace PLImg_V2
 
 
             ucComunication.SetLine();
-            Core.TrigScanData.Scan_Stage_Speed = (double)Convert.ToDouble( nudScanSpeed.Value);
             ucComunication.SetLineRate( (int)nudlinerate.Value );
             if ( (bool)ckbScatter.IsChecked ) Core.FlgIsScatter = true;
             else Core.FlgIsScatter = false;
@@ -193,6 +192,7 @@ namespace PLImg_V2
                 if ( item.Value.IsChecked == true )
                 {
                     ResizeTriggerImgBox( item.Key );
+					Core.TrigScanData = ucScanconfig.GetConfigs().ToScanData();
                     Core.StartTrigScan( item.Key );
                 }
             }
@@ -427,10 +427,7 @@ namespace PLImg_V2
         void ScanStart( ) { Mouse.OverrideCursor = Mouse.OverrideCursor = System.Windows.Input.Cursors.Wait;}
         void ScanEnd( ) { Mouse.OverrideCursor = null; }
 
-        #region Camera
-      
-        #endregion
-
+       
         #region Stage
         // common //
         private void btnOrigin_Click( object sender, RoutedEventArgs e ) {

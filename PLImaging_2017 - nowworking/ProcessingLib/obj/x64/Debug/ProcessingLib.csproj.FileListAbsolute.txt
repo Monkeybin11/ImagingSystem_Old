@@ -18,3 +18,14 @@ E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\
 E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.csprojResolveAssemblyReference.cache
 E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.dll
 E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.pdb
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\ProcessingLib.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\ProcessingLib.pdb
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\CommonExtension.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\Emgu.CV.UI.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\Emgu.CV.UI.GL.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\Emgu.CV.World.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\EmguCV_Extension.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.csprojResolveAssemblyReference.cache
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.csproj.CoreCompileInputs.cache
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.dll
+C:\00GitProject\ImagingSystem_Old\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.pdb

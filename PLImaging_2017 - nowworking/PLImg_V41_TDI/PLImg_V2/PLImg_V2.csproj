@@ -220,6 +220,7 @@
     <Compile Include="Core\ScanInfo.cs" />
     <Compile Include="Core\Setting.cs" />
     <Compile Include="Data\TriggerScanData.cs" />
+    <Compile Include="Ext.cs" />
     <Compile Include="ImgProcessingLib.cs" />
     <Compile Include="Processing.cs" />
     <Compile Include="RS232\RS232.cs" />
@@ -229,6 +230,9 @@
     <Compile Include="Shear.cs" />
     <Compile Include="UC_CamComunication.xaml.cs">
       <DependentUpon>UC_CamComunication.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ScanConfiguration.xaml.cs">
+      <DependentUpon>UC_ScanConfiguration.xaml</DependentUpon>
     </Compile>
     <Compile Include="WIn_AreaView.xaml.cs">
       <DependentUpon>WIn_AreaView.xaml</DependentUpon>
@@ -262,6 +266,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UC_CamComunication.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC_ScanConfiguration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

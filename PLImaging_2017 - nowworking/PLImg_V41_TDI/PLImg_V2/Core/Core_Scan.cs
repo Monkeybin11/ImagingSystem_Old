@@ -62,14 +62,16 @@ namespace PLImg_V2
             System.Threading.Thread.Sleep( 100 );
             Grab();
             System.Threading.Thread.Sleep( 100 );
-            ScanMoveXYstg( "Y", TrigScanData.EndYPos[config], TrigScanData.Scan_Stage_Speed );
+            //ScanMoveXYstg( "Y", TrigScanData.EndYPos[config], TrigScanData.Scan_Stage_Speed );
+            ScanMoveXYstg( "Y", TrigScanData.YStart , TrigScanData.ScanSpeed );
         }
 
         void StgReadyTrigScan( int triggerNum, ScanConfig config )
         {
             //Console.WriteLine( $"Stage Ready Line Number = {triggerNum}" );
-            var nextYpos = TrigScanData.StartYPos[config];
-            var nextXpos = TrigScanData.StartXPos[config] - TrigScanData.XStep_Size * triggerNum;
+            var nextYpos = TrigScanData.YStart;
+			//var nextXpos = TrigScanData.StartXPos[config] - TrigScanData.XStep_Size * triggerNum;
+			var nextXpos = TrigScanData.XstartList[triggerNum];
 
            // nextYpos.Print( "Next Y Pos" );
            // nextXpos.Print( "Next X Pos" );
@@ -79,7 +81,7 @@ namespace PLImg_V2
             MoveXYstg( "X", nextXpos );
             Stg.WaitEps( "Y" )( nextYpos, 0.1 );
             Stg.WaitEps( "X" )( nextXpos, 0.1 );
-            Stg.SetSpeed( "Y" )( TrigScanData.Scan_Stage_Speed );
+            Stg.SetSpeed( "Y" )( TrigScanData.ScanSpeed );
         }
 
         void ResetCamCofnig( ScanConfig config )

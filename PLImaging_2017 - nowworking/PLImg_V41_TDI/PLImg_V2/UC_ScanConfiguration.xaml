@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="PLImg_V2.UC_ScanConfiguration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mahapps ="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+			 xmlns:local="clr-namespace:PLImg_V2"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="200" Loaded="UserControl_Loaded">
+    <Grid>
+		<UniformGrid Rows=" 11" Columns="2">
+			<Label Content="LineRate" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudLineRAte"     Style="{StaticResource nudSide}" StringFormat="0"   />
+			<Label Content="ScanSpeed" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudScanSpeed"     Style="{StaticResource nudSide}" StringFormat="0"   />
+			<Label Content="Ystart" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudystart"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="YEnd" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudyend"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X1" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx1"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X2" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx2"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X3" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx3"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X4" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx4"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X5" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx5"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X6" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx6"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+			<Label Content="X7" Style="{StaticResource lblBase}" />
+			<mahapps:NumericUpDown x:Name="nudx7"     Style="{StaticResource nudSide}" StringFormat="0.00"   />
+		</UniformGrid>
+	</Grid>
+</UserControl>

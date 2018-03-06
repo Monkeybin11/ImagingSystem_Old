@@ -44,7 +44,8 @@ namespace PLImg_V2
         public DalsaPiranha3_12k Cam = new DalsaPiranha3_12k();
         public AcsCtrlXYZ Stg        = new AcsCtrlXYZ();
         public ScanInfo Info         = new ScanInfo();
-        public TriggerScanData TrigScanData = new TriggerScanData();
+		//public TriggerScanData TrigScanData = new TriggerScanData();
+		public TriggerScanData_New TrigScanData;
         Indicator Idc = new Indicator();
 
 
@@ -256,24 +257,22 @@ namespace PLImg_V2
                     //Bitmap oriimg = temp.ToBitmap().Shearing(0.02,0);
                     //temp = new Image<Gray, byte>( oriimg );
 
-                    if ( CurrentConfig != ScanConfig.Trigger_1 )
-                    { temp.ROI = TrigScanData.RoiList[CurrentConfig][count]; }
-                    else
-                    {
-                        temp.ROI = TrigScanData.RoiList[CurrentConfig][count];
-
-                    }
-                    temp = temp.Copy();
+                    //if ( CurrentConfig != ScanConfig.Trigger_1 )
+                    //{ temp.ROI = TrigScanData.RoiList[CurrentConfig][count]; }
+                    //else
+                    //{
+                    //    temp.ROI = TrigScanData.RoiList[CurrentConfig][count];
+                    //}
+                    //temp = temp.Copy();
                     // shearing 
                     if ( FlgRemoveBack )
                     {
                         var grad = temp.Clone()
-                    .Median(131)
-                    .Median(131)
-                    .Median(131)
-                    .Median(131)
-                    .Not();
-
+									.Median(131)
+									.Median(131)
+									.Median(131)
+									.Median(131)
+									.Not();
                         temp = temp * 0.5 + grad * 0.5;
                     }
 
@@ -310,11 +309,11 @@ namespace PLImg_V2
                         System.Threading.Thread.Sleep( 300 );
                         RunStgBuffer( CurrentConfig );
                         System.Threading.Thread.Sleep( 100 );
-                        ScanMoveXYstg( "Y", TrigScanData.EndYPos[CurrentConfig], TrigScanData.Scan_Stage_Speed );
-                        Stg.WaitEps( "Y" )( TrigScanData.EndYPos[CurrentConfig], 0.1 );
+                        ScanMoveXYstg( "Y", TrigScanData.YEnd, TrigScanData.ScanSpeed );
+						StopStgBuffer( CurrentConfig );
+						Stg.WaitEps( "Y" )( TrigScanData.YEnd, 0.1 );
                         System.Threading.Thread.Sleep( 300 );
-                        StopStgBuffer( CurrentConfig );
-                        System.Threading.Thread.Sleep(1000 );
+                        //StopStgBuffer( CurrentConfig );
                     }
                     else
                     {

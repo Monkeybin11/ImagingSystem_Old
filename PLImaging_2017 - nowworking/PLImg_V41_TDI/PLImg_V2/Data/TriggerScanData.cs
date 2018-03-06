@@ -8,7 +8,49 @@ using System.Threading.Tasks;
 
 namespace PLImg_V2.Data
 {
-    public class TriggerScanData
+	public class TriggerScanData_New
+	{
+		public double YStart;
+		public double YEnd;
+		public double[] XstartList;
+		public int LineRate;
+		public int ScanSpeed;
+
+		public TriggerScanData_New( double[] configlist )
+		{
+			YStart	= configlist[0];
+			YEnd	= configlist[1];
+			XstartList = new double[]
+			{
+				configlist[2],
+				configlist[3],
+				configlist[4],
+				configlist[5],
+				configlist[6],
+				configlist[7],
+				configlist[8]
+			};
+
+			LineRate	= (int)configlist[9];
+			ScanSpeed	= (int)configlist[10];
+		}
+
+		public TriggerScanData_New()
+		{
+			YStart = 150;
+			YEnd = 78;
+			XstartList = new double[]
+			{
+				22.1, 44.2, 66.3, 88.4, 110.5, 132.6
+			};
+			LineRate = 4280;
+			ScanSpeed = 8;
+		}
+	}
+
+
+
+	public class TriggerScanData
     {
         public Dictionary<ScanConfig,double> StartYPos;
         public Dictionary<ScanConfig,double> StartXPos;
