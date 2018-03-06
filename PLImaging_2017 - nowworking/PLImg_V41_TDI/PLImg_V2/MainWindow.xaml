@@ -12,7 +12,7 @@
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:uc ="clr-namespace:PLImg_V2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="1500" Closing="MetroWindow_Closing">
+        Title="MainWindow" Height="1000" Width="1500" Closing="MetroWindow_Closing" Loaded="MetroWindow_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>

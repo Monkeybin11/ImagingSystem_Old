@@ -96,7 +96,7 @@ namespace PLImg_V2
             temp.Print( "Display Counter is " );
             temp++;
             PLImageList.Add( img );
-            var reimg = img.Resize( 0.1, Inter.Nearest );
+            var reimg = img.Resize( 0.2, Inter.Nearest );
             this.BeginInvoke( () => TrgImgBoxArr[lineNum].Source = reimg.ToBitmapSource() );
             // ADD vf Value
         }
@@ -104,7 +104,7 @@ namespace PLImg_V2
         void DisplayTrgScterImg( Image<Gray, byte> img, int lineNum )
         {
             SCImageList.Add( img );
-            var reimg = img.Resize( 0.1, Inter.Nearest );
+            var reimg = img.Resize( 0.2, Inter.Nearest );
             this.BeginInvoke( () => TrgScterImgBoxArr[lineNum].Source = reimg.ToBitmapSource() );
         }
        
@@ -551,7 +551,10 @@ namespace PLImg_V2
             Core.Freeze();
         }
 
-
-
+        private void MetroWindow_Loaded( object sender, RoutedEventArgs e )
+        {
+            Core.Stg.Home( "X" )();
+            Core.Stg.Home( "Y" )();
+        }
     }
 }
