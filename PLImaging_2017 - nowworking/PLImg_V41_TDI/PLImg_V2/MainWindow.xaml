@@ -69,10 +69,11 @@
                                             <CheckBox x:Name="ckbScatter" Content="SctteringMode"  Grid.Row="1" Grid.ColumnSpan="2" FontSize="13"  Margin="20,0,0,0" HorizontalAlignment="Left"  VerticalAlignment="Center" FlowDirection="RightToLeft"/>
                                             <CheckBox x:Name="ckbBackGoundRemove" Content="Background Correct"  Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" FontSize="13"  Margin="20,0,0,0" HorizontalAlignment="Left"  VerticalAlignment="Center" FlowDirection="RightToLeft"/>
 
-                                            <UniformGrid Columns="3" Grid.Column="1" Grid.ColumnSpan="3">
+                                            <UniformGrid Columns="2" Grid.Column="1" Grid.ColumnSpan="4">
                                                 <RadioButton x:Name="rdb1inch"  Content=" : 1Inch" FlowDirection="RightToLeft"  HorizontalAlignment="Center"  VerticalAlignment="Center"  IsChecked="True"/>
                                                 <RadioButton x:Name="rdb2inch"  Content=" : 2Inch" FlowDirection="RightToLeft"  HorizontalAlignment="Center"  VerticalAlignment="Center" />
                                                 <RadioButton x:Name="rdb4inch"  Content=" : 4Inch" FlowDirection="RightToLeft"  HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                                                <RadioButton x:Name="rdb6inch"  Content=" : 6Inch" FlowDirection="RightToLeft"  HorizontalAlignment="Center"  VerticalAlignment="Center" />
                                             </UniformGrid>
                                         </Grid>
 
@@ -80,6 +81,7 @@
                                         <Button x:Name ="btnSaveImg"            Grid.Row="3" Grid.Column="1" Style="{StaticResource btnsidestyle}" Content="Save Img"    Click="btnSaveImg_Click"/>
 
                                     </Grid>
+                                    
 
 
                                     <Grid Grid.Row="1" >
@@ -132,8 +134,8 @@
                                         <mahapps:NumericUpDown x:Name="nudGoZPos" StringFormat="0.000" Grid.Row="6" Grid.Column="1"  Maximum="49"   Minimum="0"  Style="{StaticResource nudSide}" />
                                         <mahapps:NumericUpDown x:Name="nudGoRPos" StringFormat="0.00"  Grid.Row="7" Grid.Column="1"  Style="{StaticResource nudSide}" />
                                         
-                                        <mahapps:NumericUpDown x:Name="nudPLBias" Value="60"  StringFormat="0"  Grid.Row="9" Grid.Column="1"  Style="{StaticResource nudSide}" />
-                                        <mahapps:NumericUpDown x:Name="nudScBias" Value="200" StringFormat="0"  Grid.Row="10" Grid.Column="1"  Style="{StaticResource nudSide}" />
+                                        <mahapps:NumericUpDown x:Name="nudPLBias" Value="200"  StringFormat="0"  Grid.Row="9" Grid.Column="1"  Style="{StaticResource nudSide}" />
+                                        <mahapps:NumericUpDown x:Name="nudScBias" Value="240" StringFormat="0"  Grid.Row="10" Grid.Column="1"  Style="{StaticResource nudSide}" />
 
                                         
 
@@ -201,6 +203,10 @@
                                 <Image x:Name="imgboxTrig3" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                                 <Image x:Name="imgboxTrig4" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                                 <Image x:Name="imgboxTrig5" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig6" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig7" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig8" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                                <Image x:Name="imgboxTrig9" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                         </DockPanel>
                     </Grid>
                 </Border>
@@ -211,7 +217,7 @@
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="12*"/>
                         </Grid.RowDefinitions>
-                        <Label Content="PL Indexing" Style="{StaticResource lblBase}"/>
+                        <Label Content="" Style="{StaticResource lblBase}"/>
                         <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource brdBase}" Width="400" Height="400" VerticalAlignment="Top" Margin="0" BorderBrush="LightGray">
                             <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="True" >
                                 <WindowsFormsHost x:Name="windowOri" DockPanel.Dock="Top" Height="Auto" Width="Auto"  >
@@ -239,6 +245,10 @@
                             <Image x:Name="imgboxScterTrig3" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                             <Image x:Name="imgboxScterTrig4" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                             <Image x:Name="imgboxScterTrig5" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig6" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig7" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig8" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
+                            <Image x:Name="imgboxScterTrig9" Margin="0,0,-1,0" DockPanel.Dock="Left"/>
                         </DockPanel>
                     </Grid>
                 </Border>
@@ -249,7 +259,7 @@
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="12*"/>
                         </Grid.RowDefinitions>
-                        <Label Content="Scaterring Scan Indexing" Style="{StaticResource lblBase}"/>
+                        <Label Content="" Style="{StaticResource lblBase}"/>
                         <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource brdBase}" Width="401" Height="401" VerticalAlignment="Top" Margin="0" BorderBrush="LightGray">
                             <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="True"   >
                                 <WindowsFormsHost x:Name="windowScterOri" DockPanel.Dock="Top" Margin="1" Height="Auto" Width="Auto"  >

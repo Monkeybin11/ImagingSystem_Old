@@ -176,6 +176,7 @@ namespace PLImg_V2
         private void btnAlign_Click( object sender, RoutedEventArgs e )
         {
             //RCore.UpdatePos( -CurrentAngle );
+
         }
 
         private void btnUpY_Click( object sender, RoutedEventArgs e )

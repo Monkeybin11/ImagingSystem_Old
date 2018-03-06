@@ -15,6 +15,7 @@ using EmguCvExtension;
 using ChipProcessingLib;
 using System.IO.Ports;
 using System.Threading;
+using System.Drawing;
 
 namespace PLImg_V2
 {
@@ -69,8 +70,8 @@ namespace PLImg_V2
         public bool FlgIsScatter = false;
         public bool FlgRemoveBack = false;
 
-        public int PLBias = 200;
-        public int SCBias = 200;
+        public int PLBias = 60;
+        public int SCBias = 60;
         public List<Image<Gray,byte>> ScanedPLImage;
         public List<Image<Gray,byte>> ScanedSCImage;
 
@@ -106,6 +107,7 @@ namespace PLImg_V2
             Reconnector.Add( ScanConfig.Trigger_1, Cam.Connect( camPath, ScanConfig.Trigger_1 ) );
             Reconnector.Add( ScanConfig.Trigger_2, Cam.Connect( camPath, ScanConfig.Trigger_2 ) );
             Reconnector.Add( ScanConfig.Trigger_4, Cam.Connect( camPath, ScanConfig.Trigger_4 ) );
+            Reconnector.Add( ScanConfig.Trigger_6, Cam.Connect( camPath, ScanConfig.Trigger_6 ) );
             Reconnector.Add( ScanConfig.Area, Cam.Connect( camPath, ScanConfig.Area ) );
             Reconnector.Add( ScanConfig.Align, Cam.Connect( camPath, ScanConfig.Area ) );
 
@@ -113,6 +115,7 @@ namespace PLImg_V2
             ExposureMode.Add( ScanConfig.Trigger_1, Cam.ExposureMode( 3 ) );
             ExposureMode.Add( ScanConfig.Trigger_2, Cam.ExposureMode( 3 ) );
             ExposureMode.Add( ScanConfig.Trigger_4, Cam.ExposureMode( 3 ) );
+            ExposureMode.Add( ScanConfig.Trigger_6, Cam.ExposureMode( 3 ) );
             ExposureMode.Add( ScanConfig.Area, Cam.ExposureMode( 3 ) );
             ExposureMode.Add( ScanConfig.Align, Cam.ExposureMode( 3 ) );
 
@@ -154,6 +157,10 @@ namespace PLImg_V2
                 {
                     Stg.StartTrigger( 5 );
                 }
+                else if ( config == ScanConfig.Trigger_6 )
+                {
+                    Stg.StartTrigger( 6 );
+                }
             } );
 
             StopStgBuffer = new Action<ScanConfig>( ( config ) =>
@@ -169,6 +176,10 @@ namespace PLImg_V2
                 else if ( config == ScanConfig.Trigger_4 )
                 {
                     Stg.StopTrigger( 5 );
+                }
+                else if ( config == ScanConfig.Trigger_6 )
+                {
+                    Stg.StopTrigger( 6 );
                 }
             } );
         }
@@ -241,14 +252,22 @@ namespace PLImg_V2
 
                     var temp = Buf2Img( currentbuff , 1 )
                                     .Map( x => FlgIsScatter ? x.Normalize((byte)SCBias) : x.Normalize((byte)PLBias));
+
+                    //Bitmap oriimg = temp.ToBitmap().Shearing(0.02,0);
+                    //temp = new Image<Gray, byte>( oriimg );
+
                     if ( CurrentConfig != ScanConfig.Trigger_1 )
                     { temp.ROI = TrigScanData.RoiList[CurrentConfig][count]; }
+                    else
+                    {
+                        temp.ROI = TrigScanData.RoiList[CurrentConfig][count];
 
+                    }
                     temp = temp.Copy();
+                    // shearing 
                     if ( FlgRemoveBack )
                     {
                         var grad = temp.Clone()
-                    .Median(131)
                     .Median(131)
                     .Median(131)
                     .Median(131)
@@ -270,7 +289,8 @@ namespace PLImg_V2
                         evtTrgImg( temp, count );
                         ProcConfig = PLConfig.GetInstance();
                     }
-                    Task.Run( () => ChipProcCore.ProcRun2( temp, x => x, ProcConfig ) );
+                    evtScanEnd();
+                    //Task.Run( () => ChipProcCore.ProcRun2( temp, x => x, ProcConfig ) );
                 } );
 
                 // Get Index Image from event 
@@ -279,27 +299,30 @@ namespace PLImg_V2
                 // 1 Trigger = 1 Buffer
                 lock ( key )
                 {
-                    TrigCount += 1;
-
-                    if ( TrigCount < TrigLimit )
+                    Console.WriteLine( "Trigcount is updated to {0}", TrigCount . ToString() );
+                    if ( TrigCount < TrigLimit - 1 )
                     {
-                        "Move Next Position".Print();
+                        TrigCount += 1;
+                        //"Move Next Position".Print();
+                        StopStgBuffer( CurrentConfig );
+                        System.Threading.Thread.Sleep( 1000 );
                         StgReadyTrigScan( TrigCount, CurrentConfig );
+                        System.Threading.Thread.Sleep( 300 );
                         RunStgBuffer( CurrentConfig );
-                        System.Threading.Thread.Sleep( 2000 );
+                        System.Threading.Thread.Sleep( 100 );
                         ScanMoveXYstg( "Y", TrigScanData.EndYPos[CurrentConfig], TrigScanData.Scan_Stage_Speed );
                         Stg.WaitEps( "Y" )( TrigScanData.EndYPos[CurrentConfig], 0.1 );
-                        System.Threading.Thread.Sleep( 500 );
+                        System.Threading.Thread.Sleep( 300 );
                         StopStgBuffer( CurrentConfig );
-                        System.Threading.Thread.Sleep( 3000 );
+                        System.Threading.Thread.Sleep(1000 );
                     }
                     else
                     {
+                        StopStgBuffer( CurrentConfig );
                         Console.WriteLine( "Scan is Done. Will start next scan" );
-                        evtScanEnd();
+                        
                     }
-                }
-
+               }
             }
             catch ( Exception ex )
             {

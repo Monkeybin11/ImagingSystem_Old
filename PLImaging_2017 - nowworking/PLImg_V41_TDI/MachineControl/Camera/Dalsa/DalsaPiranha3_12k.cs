@@ -201,6 +201,12 @@ namespace MachineControl.Camera.Dalsa
                     ConfigFileName = DalsaCam_ccf_Data.ConfigFile_4;
                     ConfigFile = DalsaCam_ccf_Data.ConfigFileNameBase + ConfigFileName;
                     break;
+
+                case ScanConfig.Trigger_6:
+                    ConfigFileName = DalsaCam_ccf_Data.ConfigFile_6;
+                    ConfigFile = DalsaCam_ccf_Data.ConfigFileNameBase + ConfigFileName;
+                    break;
+
                 case ScanConfig.Area:
                     ConfigFileName = DalsaCam_ccf_Data.ConfigFile_Area;
                     ConfigFile = DalsaCam_ccf_Data.ConfigFileNameBase + ConfigFileName;

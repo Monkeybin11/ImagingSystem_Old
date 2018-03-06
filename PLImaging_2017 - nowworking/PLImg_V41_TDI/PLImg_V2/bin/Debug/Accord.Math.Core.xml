@@ -12409,6 +12409,4230 @@
                matrix as one of the arguments to perform the operation in place.</param>
              
         </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Int32,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Int16[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int16[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int16[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int16[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int16[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Int16,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int16,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int16,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int16[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int16[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int16[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Single,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Int64,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Byte[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Byte[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Byte[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Byte[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Byte[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.Byte,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.Byte,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.Byte,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Byte[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Byte[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.Byte[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.SByte[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.SByte[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.SByte[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.SByte[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.SByte[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[],System.SByte,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[0:,0:],System.SByte,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32[][],System.SByte,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.SByte[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.SByte[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int32,System.SByte[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Int32,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Int16[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Int16,System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int16,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int16,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int16[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Single,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Int64,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Byte[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Byte[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Byte[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Byte[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Byte[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.Byte,System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.Byte,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.Byte,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Byte[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Byte[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.Byte[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.SByte[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.SByte[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.SByte[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.SByte[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.SByte[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[],System.SByte,System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[0:,0:],System.SByte,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16[][],System.SByte,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.SByte[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.SByte[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int16,System.SByte[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Int32[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int32[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int32[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int32[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int32[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Int32,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int32,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int32,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int32[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int32[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int32[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Int16[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int16[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int16[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int16[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int16[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Int16,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int16,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int16,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int16[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int16[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int16[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Single,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Int64[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int64[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int64[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int64[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int64[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Int64,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Int64,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Int64,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int64[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int64[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Int64[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Byte[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Byte[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Byte[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Byte[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Byte[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.Byte,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.Byte,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.Byte,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Byte[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Byte[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.Byte[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.SByte[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.SByte[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.SByte[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.SByte[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.SByte[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[],System.SByte,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[0:,0:],System.SByte,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single[][],System.SByte,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.SByte[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.SByte[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Single,System.SByte[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Int32[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int32[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int32[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int32[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int32[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Int32,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int32,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int32,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int32[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int32[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int32[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Int16[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int16[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int16[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int16[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int16[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Int16,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int16,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int16,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int16[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int16[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int16[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Single[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Single[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Single[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Single[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Single[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Single,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Single,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Single,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Single[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Single[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Single[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Int64[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int64[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int64[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int64[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int64[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Int64,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Int64,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Int64,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int64[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int64[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Int64[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Byte[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Byte[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Byte[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Byte[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Byte[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.Byte,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.Byte,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.Byte,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Byte[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Byte[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.Byte[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.SByte[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.SByte[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.SByte[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.SByte[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.SByte[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[],System.SByte,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[0:,0:],System.SByte,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double[][],System.SByte,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.SByte[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.SByte[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Double,System.SByte[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Int32[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int32[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int32[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int32[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int32[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Int32,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int32,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int32,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int32[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int32[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int32[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Int16[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int16[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int16[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int16[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int16[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Int16,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int16,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int16,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int16[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int16[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int16[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Single,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Int64,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Byte[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Byte[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Byte[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Byte[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Byte[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.Byte,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.Byte,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.Byte,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Byte[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Byte[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.Byte[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.SByte[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.SByte[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.SByte[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.SByte[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.SByte[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[],System.SByte,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[0:,0:],System.SByte,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64[][],System.SByte,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.SByte[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.SByte[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Int64,System.SByte[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Int32[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int32[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int32[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int32[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int32[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Int32,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int32,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int32,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int32[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int32[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int32[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Int16[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int16[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int16[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int16[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int16[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Int16,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int16,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int16,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int16[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int16[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int16[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Single[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Single[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Single[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Single[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Single[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Single,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Single,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Single,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Single[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Single[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Single[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Double[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Double[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Double[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Double[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Double[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Double,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Double,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Double,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Double[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Double[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Double[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Int64[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int64[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int64[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int64[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int64[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Int64,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Int64,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Int64,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int64[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int64[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Int64[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Byte[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Byte[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Byte[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Byte[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Byte[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.Byte,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.Byte,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.Byte,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Byte[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Byte[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.Byte[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.SByte[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.SByte[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.SByte[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.SByte[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.SByte[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[],System.SByte,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[0:,0:],System.SByte,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal[][],System.SByte,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.SByte[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.SByte[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Decimal,System.SByte[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Int32,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Int16[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Int16,System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int16,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int16,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int16[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Single,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Int64,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Byte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Byte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Byte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Byte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Byte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.Byte,System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.Byte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.Byte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Byte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Byte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.Byte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.SByte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.SByte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.SByte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.SByte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.SByte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[],System.SByte,System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[0:,0:],System.SByte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte[][],System.SByte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.SByte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.SByte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.Byte,System.SByte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Int32,System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int32,System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int32[],System.Int32,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int32[0:,0:],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int32[][],System.Int32,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Int16[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Int16,System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int16,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int16,System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int16[],System.Int16,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int16[0:,0:],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int16[][],System.Int16,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Single,System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Single,System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Single[],System.Single,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Single[0:,0:],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Single[][],System.Single,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Double,System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Double,System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Double[],System.Double,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Double[0:,0:],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Double[][],System.Double,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Int64,System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Int64,System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int64[],System.Int64,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int64[0:,0:],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Int64[][],System.Int64,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Decimal,System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Decimal[],System.Decimal,System.Decimal)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Decimal[0:,0:],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Decimal[][],System.Decimal,System.Decimal)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Byte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Byte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Byte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Byte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Byte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.Byte,System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.Byte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.Byte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Byte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Byte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.Byte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.SByte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.SByte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.SByte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.SByte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.SByte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[],System.SByte,System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[0:,0:],System.SByte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte[][],System.SByte,System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.SByte[],System.Byte,System.Double)">
+            <summary>
+              Determines whether two vectors contain the same values.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.SByte[0:,0:],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
+        <member name="M:Accord.Math.Elementwise.Equals(System.SByte,System.SByte[][],System.Byte,System.Double)">
+             <summary>
+               Determines whether two matrices contain the same values.
+             </summary>
+            
+        </member>
         <member name="M:Accord.Math.Elementwise.Divide(System.Int32[0:,0:],System.Int32)">
             <summary>
               Divides a matrix <c>A</c> by a scalar <c>b</c>.

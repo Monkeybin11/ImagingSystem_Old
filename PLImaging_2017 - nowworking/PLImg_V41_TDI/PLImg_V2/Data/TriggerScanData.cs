@@ -21,17 +21,20 @@ namespace PLImg_V2.Data
         public double Camera_Exposure  = 800;
         public double Camera_LineRate  = 1240;
 
-        public double Trigger1StartX  =   93.2;
-        public double Trigger2StartX  =   93.2;
+        public double Trigger1StartX  =   92.3;
+        public double Trigger2StartX  =   95.2;//93.2
         public double Trigger4StartX  =   22.1*5+5;
+        public double Trigger6StartX  =   157;//22.1*7+5;
 
-        public double Trigger1StartY  =   127;//125;
-        public double Trigger2StartY  =   155;//145;
+        public double Trigger1StartY  =   125;//125;
+        public double Trigger2StartY  =   150;//145;
         public double Trigger4StartY  =   175;//163;
+        public double Trigger6StartY  =   189.5;//163;
 
         public double Trigger1EndY    =   90;
-        public double Trigger2EndY    =   75;
+        public double Trigger2EndY    =   78;
         public double Trigger4EndY    =   60;
+        public double Trigger6EndY    =   34;
 
         public TriggerScanData() { UpdateScanLocation(); }
         //public TriggerScanData(
@@ -56,19 +59,26 @@ namespace PLImg_V2.Data
             StartYPos.Add( ScanConfig.Trigger_1, Trigger1StartY );
             StartYPos.Add( ScanConfig.Trigger_2, Trigger2StartY );
             StartYPos.Add( ScanConfig.Trigger_4, Trigger4StartY );
+            StartYPos.Add( ScanConfig.Trigger_6, Trigger6StartY );
 
             StartXPos = new Dictionary<ScanConfig, double>();
             StartXPos.Add( ScanConfig.Trigger_1, Trigger1StartX );
             StartXPos.Add( ScanConfig.Trigger_2, Trigger2StartX);
             StartXPos.Add( ScanConfig.Trigger_4, Trigger4StartX);
+            StartXPos.Add( ScanConfig.Trigger_6, Trigger6StartX);
 
             EndYPos = new Dictionary<ScanConfig , double>();
             EndYPos.Add( ScanConfig.Trigger_1 , Trigger1EndY );
             EndYPos.Add( ScanConfig.Trigger_2 , Trigger2EndY );
             EndYPos.Add( ScanConfig.Trigger_4 , Trigger4EndY );
+            EndYPos.Add( ScanConfig.Trigger_6 , Trigger6EndY );
 
 
             RoiList = new Dictionary<ScanConfig, List<Rectangle>>();
+
+
+            List<Rectangle> Inch1 = new List<Rectangle>();
+            Inch1.Add( new Rectangle( 500, 500, 11000, 10800 ) );
 
             List<Rectangle> Inch2 = new List<Rectangle>();
             Inch2.Add( new Rectangle( 95, 0  , 12000, 34000 ) );
@@ -82,9 +92,23 @@ namespace PLImg_V2.Data
             Inch4.Add( new Rectangle(95, 478, 11905, 59000 ) );
             Inch4.Add( new Rectangle(95, 478, 11905, 59000 ) );
 
+            List<Rectangle> Inch6 = new List<Rectangle>();
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
+            Inch6.Add( new Rectangle( 0, 0, 82000, 82000 ) );
 
+
+
+            RoiList.Add( ScanConfig.Trigger_1 , Inch1 );
             RoiList.Add( ScanConfig.Trigger_2 , Inch2 );
             RoiList.Add( ScanConfig.Trigger_4 , Inch4 );
+            RoiList.Add( ScanConfig.Trigger_6 , Inch6 );
            
         }
     }

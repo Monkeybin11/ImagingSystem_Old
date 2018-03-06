@@ -67,13 +67,13 @@ namespace PLImg_V2
 
         void StgReadyTrigScan( int triggerNum, ScanConfig config )
         {
-            Console.WriteLine( $"Stage Ready Line Number = {triggerNum}" );
+            //Console.WriteLine( $"Stage Ready Line Number = {triggerNum}" );
             var nextYpos = TrigScanData.StartYPos[config];
             var nextXpos = TrigScanData.StartXPos[config] - TrigScanData.XStep_Size * triggerNum;
 
-            nextYpos.Print( "Next Y Pos" );
-            nextXpos.Print( "Next X Pos" );
-            "".Print();
+           // nextYpos.Print( "Next Y Pos" );
+           // nextXpos.Print( "Next X Pos" );
+           // "".Print();
 
             MoveXYstg( "Y", nextYpos);
             MoveXYstg( "X", nextXpos );
@@ -103,6 +103,10 @@ namespace PLImg_V2
 
                 case ScanConfig.Trigger_4:
                     return 5;
+
+                case ScanConfig.Trigger_6:
+                    return 8;
+
                 default:
                     return 1;
             }

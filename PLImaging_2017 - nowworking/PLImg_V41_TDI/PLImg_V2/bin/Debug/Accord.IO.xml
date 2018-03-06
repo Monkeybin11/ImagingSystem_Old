@@ -4,6 +4,218 @@
         <name>Accord.IO</name>
     </assembly>
     <members>
+        <member name="T:Accord.IO.Compression.LzwInputStream">
+             <summary>
+             This filter stream is used to decompress a LZW format stream.
+             Specifically, a stream that uses the LZC compression method.
+             This file format is usually associated with the .Z file extension.
+            
+             See http://en.wikipedia.org/wiki/Compress
+             See http://wiki.wxwidgets.org/Development:_Z_File_Format
+             
+             The file header consists of 3 (or optionally 4) bytes. The first two bytes
+             contain the magic marker "0x1f 0x9d", followed by a byte of flags.
+            
+             Based on Java code by Ronald Tschalar, which in turn was based on the unlzw.c
+             code in the gzip package.
+             </summary>
+             <example> This sample shows how to unzip a compressed file
+             <code>
+             using System;
+             using System.IO;
+             
+             using ICSharpCode.SharpZipLib.Core;
+             using ICSharpCode.SharpZipLib.LZW;
+             
+             class MainClass
+             {
+             	public static void Main(string[] args)
+             	{
+            			using (Stream inStream = new LzwInputStream(File.OpenRead(args[0])))
+            			using (FileStream outStream = File.Create(Path.GetFileNameWithoutExtension(args[0]))) {
+            				byte[] buffer = new byte[4096];
+            				StreamUtils.Copy(inStream, outStream, buffer);
+                                     // OR
+                                     inStream.Read(buffer, 0, buffer.Length);
+                                     // now do something with the buffer
+             		}
+             	}
+             }	
+             </code>
+             </example>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.MAGIC">
+            <summary>
+            Magic number found at start of LZW header: 0x1f 0x9d
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.MAX_BITS">
+            <summary>
+            Maximum number of bits per code
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.BIT_MASK">
+            <summary>
+            Mask for 'number of compression bits'
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.EXTENDED_MASK">
+            <summary>
+            Indicates the presence of a fourth header byte
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.RESERVED_MASK">
+            <summary>
+            Reserved bits
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.BLOCK_MODE_MASK">
+            <summary>
+            Block compression: if table is full and compression rate is dropping,
+            clear the dictionary.
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.HDR_SIZE">
+            <summary>
+            LZW file header size (in bytes)
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.INIT_BITS">
+            <summary>
+            Initial number of bits per code
+            </summary>
+        </member>
+        <member name="P:Accord.IO.Compression.LzwInputStream.IsStreamOwner">
+            <summary>
+            Get/set flag indicating ownership of underlying stream.
+            When the flag is true <see cref="M:System.IO.Stream.Close"/> will close the underlying stream also.
+            </summary>
+            <remarks>
+            The default value is true.
+            </remarks>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.#ctor(System.IO.Stream)">
+            <summary>
+            Creates a LzwInputStream
+            </summary>
+            <param name="baseInputStream">
+            The stream to read compressed data from (baseInputStream LZW format)
+            </param>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.ReadByte">
+            <summary>
+            See <see cref="M:System.IO.Stream.ReadByte"/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Reads decompressed data into the provided buffer byte array
+            </summary>
+            <param name ="buffer">
+            The array to read and decompress data into
+            </param>
+            <param name ="offset">
+            The offset indicating where the data should be placed
+            </param>
+            <param name ="count">
+            The number of bytes to decompress
+            </param>
+            <returns>The number of bytes read. Zero signals the end of stream</returns>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.ResetBuf(System.Int32)">
+            <summary>
+            Moves the unread data in the buffer to the beginning and resets
+            the pointers.
+            </summary>
+            <param name="bitPosition"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Accord.IO.Compression.LzwInputStream.CanRead">
+            <summary>
+            Gets a value indicating whether the current stream supports reading
+            </summary>
+        </member>
+        <member name="P:Accord.IO.Compression.LzwInputStream.CanSeek">
+            <summary>
+            Gets a value of false indicating seeking is not supported for this stream.
+            </summary>
+        </member>
+        <member name="P:Accord.IO.Compression.LzwInputStream.CanWrite">
+            <summary>
+            Gets a value of false indicating that this stream is not writeable.
+            </summary>
+        </member>
+        <member name="P:Accord.IO.Compression.LzwInputStream.Length">
+            <summary>
+            A value representing the length of the stream in bytes.
+            </summary>
+        </member>
+        <member name="P:Accord.IO.Compression.LzwInputStream.Position">
+            <summary>
+            The current position within the stream.
+            Throws a NotSupportedException when attempting to set the position
+            </summary>
+            <exception cref="T:System.NotSupportedException">Attempting to set the position</exception>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.Flush">
+            <summary>
+            Flushes the baseInputStream
+            </summary>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            Sets the position within the current stream
+            Always throws a NotSupportedException
+            </summary>
+            <param name="offset">The relative offset to seek to.</param>
+            <param name="origin">The <see cref="T:System.IO.SeekOrigin"/> defining where to seek from.</param>
+            <returns>The new position in the stream.</returns>
+            <exception cref="T:System.NotSupportedException">Any access</exception>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.SetLength(System.Int64)">
+            <summary>
+            Set the length of the current stream
+            Always throws a NotSupportedException
+            </summary>
+            <param name="value">The new length value for the stream.</param>
+            <exception cref="T:System.NotSupportedException">Any access</exception>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Writes a sequence of bytes to stream and advances the current position
+            This method always throws a NotSupportedException
+            </summary>
+            <param name="buffer">Thew buffer containing data to write.</param>
+            <param name="offset">The offset of the first byte to write.</param>
+            <param name="count">The number of bytes to write.</param>
+            <exception cref="T:System.NotSupportedException">Any access</exception>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.WriteByte(System.Byte)">
+            <summary>
+            Writes one byte to the current stream and advances the current position
+            Always throws a NotSupportedException
+            </summary>
+            <param name="value">The byte to write.</param>
+            <exception cref="T:System.NotSupportedException">Any access</exception>
+        </member>
+        <member name="M:Accord.IO.Compression.LzwInputStream.Dispose(System.Boolean)">
+            <summary>
+            Closes the input stream.  When <see cref="P:Accord.IO.Compression.LzwInputStream.IsStreamOwner"></see>
+            is true the underlying stream is also closed.
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.isStreamOwner">
+            <summary>
+            Flag indicating wether this instance is designated the stream owner.
+            When closing if this flag is true the underlying stream is closed.
+            </summary>
+        </member>
+        <member name="F:Accord.IO.Compression.LzwInputStream.isClosed">
+            <summary>
+            Flag indicating wether this instance has been closed or not.
+            </summary>
+        </member>
         <member name="T:Accord.IO.CsvReader">
             <summary>
               Represents a reader that provides fast, non-cached, forward-only access to CSV data.  
@@ -851,6 +1063,25 @@
               Writer for CSV data.
             </summary>
             
+            <example>
+            <para>
+              The following example shows how to use <see cref="T:Accord.IO.CsvWriter"/> to write a matrix in .csv format.</para>
+              <code source="Unit Tests\Accord.Tests.IO\CsvWriterTest.cs" region="doc_matrix" />
+              
+            <para>
+              The following example shows how to use <see cref="T:Accord.IO.CsvWriter"/> to write a jagged array in .csv format.</para>
+              <code source="Unit Tests\Accord.Tests.IO\CsvWriterTest.cs" region="doc_jagged" />
+              
+            <para>
+              The following example shows how to use <see cref="T:Accord.IO.CsvWriter"/> to write a DataTable in .csv format.</para>
+              <code source="Unit Tests\Accord.Tests.IO\CsvWriterTest.cs" region="doc_table" />
+              
+            <para>
+              It is also possible to use <see cref="T:Accord.IO.CsvWriter"/> to write matrices (or jagged arrays) 
+              containing objects with mixed types:</para>
+              <code source="Unit Tests\Accord.Tests.IO\CsvWriterTest.cs" region="doc_objects" />
+            </example>
+            
         </member>
         <member name="P:Accord.IO.CsvWriter.Writer">
             <summary>
@@ -914,6 +1145,14 @@
             <param name="writer">A <see cref="T:TextWriter"/> pointing to the CSV file.</param>
             
         </member>
+        <member name="M:Accord.IO.CsvWriter.#ctor(System.String)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.IO.CsvWriter"/> class.
+            </summary>
+            
+            <param name="path">The path to the file to be written.</param>
+            
+        </member>
         <member name="M:Accord.IO.CsvWriter.#ctor(System.IO.TextWriter,System.Char)">
             <summary>
               Initializes a new instance of the <see cref="T:Accord.IO.CsvWriter"/> class.
@@ -942,6 +1181,14 @@
             <param name="builder">A <see cref="T:StringBuilder"/> to write to.</param>
             <param name="delimiter">The field delimiter character to separate values in the CSV file.
               If set to zero, will use the system's default text separator. Default is '\0' (zero).</param>
+            
+        </member>
+        <member name="M:Accord.IO.CsvWriter.WriteHeaders(System.String[])">
+            <summary>
+              Writes the column names of a data table as the headers of the CSV file.
+            </summary>
+            
+            <param name="columnNames">A list of column names to use.</param>
             
         </member>
         <member name="M:Accord.IO.CsvWriter.WriteHeaders(System.Data.DataTable)">
@@ -1220,6 +1467,104 @@
             
             <param name="info">The <see cref="T:SerializationInfo"/> that holds the serialized object data about the exception being thrown.</param>
             <param name="context">The <see cref="T:StreamingContext"/> that contains contextual information about the source or destination.</param>
+            
+        </member>
+        <member name="T:Accord.IO.UnipenReader">
+            <summary>
+              Reader for UNIPEN files (such as Pendigits dataset).
+            </summary>
+            
+        </member>
+        <member name="P:Accord.IO.UnipenReader.Lexicon">
+            <summary>
+              Gets the lexicon information that is usually included at the header of the file.
+              This should represent the different class labels that each sample can belong to.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.IO.UnipenReader.Hierarchy">
+            <summary>
+              Gets the hierarchy iniformation that is usually included at the header of the file.
+              This usually gives a description of what the <see cref="P:Accord.IO.UnipenReader.Lexicon">class labels</see> represent.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.#ctor(System.String)">
+            <summary>
+              Creates a new <see cref="T:Accord.IO.IdxReader"/>.
+            </summary>
+            
+            <param name="path">The path for the IDX file.</param>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.#ctor(System.String,System.Boolean)">
+            <summary>
+              Creates a new <see cref="T:Accord.IO.UnipenReader"/>.
+            </summary>
+            
+            <param name="path">The path for the IDX file.</param>
+            <param name="compressed">Pass <c>true</c> if the stream contains a compressed (.gz) file. Default is true.</param>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.#ctor(System.IO.Stream)">
+            <summary>
+              Creates a new <see cref="T:Accord.IO.UnipenReader"/>.
+            </summary>
+            
+            <param name="input">The input stream containing the UNIPEN file.</param>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.#ctor(System.IO.Stream,System.Boolean)">
+            <summary>
+              Creates a new <see cref="T:Accord.IO.UnipenReader"/>.
+            </summary>
+            
+            <param name="input">The input stream containing the UNIPEN file.</param>
+            <param name="compressed">Pass <c>true</c> if the stream contains a compressed (.Z) file. Default is true.</param>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.Read(System.String@,System.String@)">
+            <summary>
+              Reads the next sequence.
+            </summary>
+            
+            <param name="label">The class label of the sample that has been read.</param>
+            <param name="comment">The comment associated with the sample that has just been read.</param>
+            
+            <returns>The sequence of (X,Y) coordinates stored in the file.</returns>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.ReadToEnd">
+            <summary>
+              Reads all samples in the file, starting from the current position.
+            </summary>
+            
+            <returns>
+              An array containing all samples from the current point until the end of the stream.
+            </returns>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.Dispose">
+            <summary>
+              Performs application-defined tasks associated with
+              freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.Dispose(System.Boolean)">
+            <summary>
+              Releases unmanaged and - optionally - managed resources
+            </summary>
+            
+            <param name="disposing"><c>true</c> to release both managed and unmanaged
+              resources; <c>false</c> to release only unmanaged resources.</param>
+            
+        </member>
+        <member name="M:Accord.IO.UnipenReader.Finalize">
+            <summary>
+              Releases unmanaged resources and performs other cleanup operations before the
+              <see cref="T:Accord.IO.IdxReader"/> is reclaimed by garbage collection.
+            </summary>
             
         </member>
         <member name="T:Accord.IO.IdxDataType">
@@ -1825,6 +2170,239 @@
               Looks up a localized string similar to Record index must be 0 or more..
             </summary>
         </member>
+        <member name="T:Accord.IO.SparseFormat">
+            <summary>
+              Provides static methods to save and load files saved in LibSVM's sparse format. 
+            </summary>
+            
+        </member>
+        <member name="M:Accord.IO.SparseFormat.Load(System.String,Accord.Math.Sparse{System.Double}[]@,System.Boolean[]@,Accord.IO.SerializerCompression)">
+            <summary>
+              Loads an array of sparse samples from a file in the disk.
+            </summary>
+            
+            <param name="path">The path to the file containing the samples to be loaded.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            <param name="compression">The type of compression to use. Default is None.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseFormat.Load(System.IO.Stream,Accord.Math.Sparse{System.Double}[]@,System.Boolean[]@,Accord.IO.SerializerCompression)">
+            <summary>
+              Loads an array of sparse samples from a stream.
+            </summary>
+            
+            <param name="stream">The stream from where the file will be loaded.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            <param name="compression">The type of compression to use. Default is None.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseFormat.Save(Accord.Math.Sparse{System.Double}[],System.Boolean[],System.String,Accord.IO.SerializerCompression)">
+            <summary>
+              Saves an array of sparse samples to a file in the disk.
+            </summary>
+            
+            <param name="path">The disk path under which the file will be saved.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            <param name="compression">The type of compression to use. Default is None.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseFormat.Save(System.Double[][],System.Boolean[],System.String,Accord.IO.SerializerCompression)">
+            <summary>
+              Saves an array of dense samples to a file in the disk.
+            </summary>
+            
+            <param name="path">The disk path under which the file will be saved.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            <param name="compression">The type of compression to use. Default is None.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseFormat.Save(Accord.Math.Sparse{System.Double}[],System.Boolean[],System.IO.Stream,Accord.IO.SerializerCompression)">
+            <summary>
+              Saves an array of sparse samples to a stream.
+            </summary>
+            
+            <param name="stream">The stream where the file will be saved.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            <param name="compression">The type of compression to use. Default is None.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseFormat.Save(System.Double[][],System.Boolean[],System.IO.Stream,Accord.IO.SerializerCompression)">
+            <summary>
+              Saves an array of dense samples to a stream.
+            </summary>
+            
+            <param name="stream">The stream where the file will be saved.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            <param name="compression">The type of compression to use. Default is None.</param>
+            
+        </member>
+        <member name="T:Accord.IO.SparseWriter">
+            <summary>
+              Writer for data files containing samples in libsvm's sparse format.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.IO.SparseWriter.BaseStream">
+            <summary>
+              Returns the underlying stream.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.IO.SparseWriter.Intercept">
+            <summary>
+              Gets or sets whether to include an intercept term
+              (bias) value at the beginning of each new sample.
+              Default is <c>null</c> (don't include anything).
+            </summary>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.#ctor(System.String)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.IO.SparseWriter"/> class.
+            </summary>
+            
+            <param name="path">The complete file path to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.#ctor(System.IO.Stream)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.IO.SparseWriter"/> class.
+            </summary>
+            
+            <param name="stream">The file stream to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.#ctor(System.IO.Stream,System.Text.Encoding)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.IO.SparseWriter"/> class.
+            </summary>
+            
+            <param name="stream">The file stream to be read.</param>
+            <param name="encoding">The character encoding to use.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Accord.IO.SparseWriter"/> class.
+            </summary>
+            
+            <param name="path">The complete file path to be written.</param>
+            <param name="encoding">The character encoding to use.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(System.Double[][],System.Boolean[])">
+            <summary>
+              Writes the given feature vectors and associated output label/value to the file.
+            </summary>
+            
+            <param name="features">The array of feature vectors to be written.</param>
+            <param name="outputs">The array of output values to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(Accord.Math.Sparse{System.Double}[],System.Boolean[])">
+            <summary>
+              Writes the given feature vectors and associated output label/value to the file.
+            </summary>
+            
+            <param name="features">The array of feature vectors to be written.</param>
+            <param name="outputs">The array of output values to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(System.Double[],System.Double)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(System.Double[],System.Boolean)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(System.Double[],System.Double,System.String)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            <param name="comment">An optional comment describing the feature.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(Accord.Math.Sparse{System.Double},System.Double)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(Accord.Math.Sparse{System.Double},System.Double,System.String)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            <param name="comment">An optional comment describing the feature.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(Accord.Math.Sparse{System.Double},System.Boolean)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Write(Accord.Math.Sparse{System.Double},System.Boolean,System.String)">
+            <summary>
+              Writes the given feature vector and associated output label/value to the file.
+            </summary>
+            
+            <param name="feature">The feature vector to be written.</param>
+            <param name="output">The output value to be written.</param>
+            <param name="comment">An optional comment describing the feature.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Dispose">
+            <summary>
+              Performs application-defined tasks associated with
+              freeing, releasing, or resetting unmanaged resources.
+            </summary>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Dispose(System.Boolean)">
+            <summary>
+              Releases unmanaged and - optionally - managed resources
+            </summary>
+            
+            <param name="disposing"><c>true</c> to release both managed and unmanaged
+              resources; <c>false</c> to release only unmanaged resources.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseWriter.Finalize">
+            <summary>
+              Releases unmanaged resources and performs other cleanup operations before the
+              <see cref="T:Accord.IO.SparseReader"/> is reclaimed by garbage collection.
+            </summary>
+            
+        </member>
         <member name="T:Accord.IO.SparseReader">
              <summary>
                Reader for data files containing samples in libsvm's sparse format.
@@ -1918,6 +2496,12 @@
             
         </member>
         <member name="P:Accord.IO.SparseReader.Dimensions">
+            <summary>
+              Obsolete. Please use <see cref="P:Accord.IO.SparseReader.NumberOfInputs"/> instead.
+            </summary>
+            
+        </member>
+        <member name="P:Accord.IO.SparseReader.NumberOfInputs">
             <summary>
               Gets the number of features present in this dataset. Please 
               note that, when using the sparse representation, it is not
@@ -2043,6 +2627,39 @@
               and its associated output value as the second item.</returns>
               
         </member>
+        <member name="M:Accord.IO.SparseReader.Read(Accord.Math.Sparse{System.Double}@,System.Double@)">
+            <summary>
+              Reads a sample from the file and returns it as a
+              <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              its associated output value.
+            </summary>
+            
+            <returns>A tuple containing the sparse vector as the first item
+              and its associated output value as the second item.</returns>
+              
+        </member>
+        <member name="M:Accord.IO.SparseReader.Read(Accord.Math.Sparse{System.Double}@,System.Int32@)">
+            <summary>
+              Reads a sample from the file and returns it as a
+              <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              its associated output value.
+            </summary>
+            
+            <returns>A tuple containing the sparse vector as the first item
+              and its associated output value as the second item.</returns>
+              
+        </member>
+        <member name="M:Accord.IO.SparseReader.Read(Accord.Math.Sparse{System.Double}@,System.Boolean@)">
+            <summary>
+              Reads a sample from the file and returns it as a
+              <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              its associated output value.
+            </summary>
+            
+            <returns>A tuple containing the sparse vector as the first item
+              and its associated output value as the second item.</returns>
+              
+        </member>
         <member name="M:Accord.IO.SparseReader.ReadSparse(System.Int32)">
             <summary>
               Reads <paramref name="count"/> samples from the file and returns
@@ -2056,6 +2673,44 @@
               and their associated output values as the second item.</returns>
             
         </member>
+        <member name="M:Accord.IO.SparseReader.Read(System.Int32,Accord.Math.Sparse{System.Double}[]@,System.Double[]@)">
+            <summary>
+              Reads <paramref name="count"/> samples from the file and returns
+              them as a <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              their associated output values.
+            </summary>
+            
+            <param name="count">The number of samples to read.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            
+            
+        </member>
+        <member name="M:Accord.IO.SparseReader.Read(System.Int32,Accord.Math.Sparse{System.Double}[]@,System.Int32[]@)">
+            <summary>
+              Reads <paramref name="count"/> samples from the file and returns
+              them as a <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              their associated output values.
+            </summary>
+            
+            <param name="count">The number of samples to read.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            
+            
+        </member>
+        <member name="M:Accord.IO.SparseReader.Read(System.Int32,Accord.Math.Sparse{System.Double}[]@,System.Boolean[]@)">
+            <summary>
+              Reads <paramref name="count"/> samples from the file and returns
+              them as a <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              their associated output values.
+            </summary>
+            
+            <param name="count">The number of samples to read.</param>
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            
+        </member>
         <member name="M:Accord.IO.SparseReader.ReadSparseToEnd">
             <summary>
               Reads all samples from the file and returns them as a
@@ -2065,6 +2720,39 @@
             
             <returns>A tuple containing the sparse vectors as the first item
               and their associated output values as the second item.</returns>
+            
+        </member>
+        <member name="M:Accord.IO.SparseReader.ReadToEnd(Accord.Math.Sparse{System.Double}[]@,System.Double[]@)">
+            <summary>
+              Reads all samples from the file and returns them as a
+              <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              their associated output values.
+            </summary>
+            
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseReader.ReadToEnd(Accord.Math.Sparse{System.Double}[]@,System.Boolean[]@)">
+            <summary>
+              Reads all samples from the file and returns them as a
+              <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              their associated output values.
+            </summary>
+            
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
+            
+        </member>
+        <member name="M:Accord.IO.SparseReader.ReadToEnd(Accord.Math.Sparse{System.Double}[]@,System.Int32[]@)">
+            <summary>
+              Reads all samples from the file and returns them as a
+              <see cref="T:Accord.Math.Sparse`1"/> sparse vector, together with
+              their associated output values.
+            </summary>
+            
+            <param name="samples">The samples that have been read from the file.</param>
+            <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
             
         </member>
         <member name="M:Accord.IO.SparseReader.ReadDense">

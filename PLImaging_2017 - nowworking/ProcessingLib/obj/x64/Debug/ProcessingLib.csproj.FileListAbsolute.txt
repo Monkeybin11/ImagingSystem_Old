@@ -8,3 +8,13 @@ E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\EmguCV_Extensi
 E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.csprojResolveAssemblyReference.cache
 E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.dll
 E:\gitpro\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\ProcessingLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\ProcessingLib.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\CommonExtension.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\Emgu.CV.UI.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\Emgu.CV.UI.GL.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\Emgu.CV.World.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\bin\x64\Debug\EmguCV_Extension.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.csprojResolveAssemblyReference.cache
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\ProcessingLib\obj\x64\Debug\ProcessingLib.pdb

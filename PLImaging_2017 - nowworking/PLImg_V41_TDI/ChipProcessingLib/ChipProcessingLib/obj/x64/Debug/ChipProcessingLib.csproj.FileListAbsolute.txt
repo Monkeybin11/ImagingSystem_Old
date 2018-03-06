@@ -8,3 +8,13 @@ E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProces
 E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\obj\x64\Debug\ChipProcessingLib.csprojResolveAssemblyReference.cache
 E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\obj\x64\Debug\ChipProcessingLib.dll
 E:\gitpro\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\obj\x64\Debug\ChipProcessingLib.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\ChipProcessingLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\ChipProcessingLib.pdb
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\Emgu.CV.World.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\EmguCvExtension.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\ModelLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\SpeedyCoding.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\bin\x64\Debug\VisionTool.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\obj\x64\Debug\ChipProcessingLib.csprojResolveAssemblyReference.cache
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\obj\x64\Debug\ChipProcessingLib.dll
+E:\gitpro\Imaging_TempProgram\PLImaging_2017 - nowworking\PLImg_V41_TDI\ChipProcessingLib\ChipProcessingLib\obj\x64\Debug\ChipProcessingLib.pdb

@@ -90,9 +90,11 @@ namespace PLImg_V2
 
 
         #region Display
-
+        int temp = 0;
         void DisplayTrgImg( Image<Gray , byte> img , int lineNum )
         {
+            temp.Print( "Display Counter is " );
+            temp++;
             PLImageList.Add( img );
             var reimg = img.Resize( 0.1, Inter.Nearest );
             this.BeginInvoke( () => TrgImgBoxArr[lineNum].Source = reimg.ToBitmapSource() );
@@ -217,6 +219,13 @@ namespace PLImg_V2
                     double h4 = dpnlImgResult.ActualHeight;
                     SetImagesSize( 5, w4, h4 );
                     break;
+
+                case ScanConfig.Trigger_6:
+                    double w6 =  ( dpnlImgResult.ActualWidth / 8.0);
+                    double h6 = dpnlImgResult.ActualHeight;
+                    SetImagesSize( 8, w6, h6 );
+                    break;
+
             }
         }
 
@@ -351,21 +360,29 @@ namespace PLImg_V2
      
         void InitImgBox()
         {
-            TrgImgBoxArr = new Image[6];
+            TrgImgBoxArr = new Image[10];
             TrgImgBoxArr[0] = imgboxTrig0;
             TrgImgBoxArr[1] = imgboxTrig1;
             TrgImgBoxArr[2] = imgboxTrig2;
             TrgImgBoxArr[3] = imgboxTrig3;
             TrgImgBoxArr[4] = imgboxTrig4;
             TrgImgBoxArr[5] = imgboxTrig5;
+            TrgImgBoxArr[6] = imgboxTrig6;
+            TrgImgBoxArr[7] = imgboxTrig7;
+            TrgImgBoxArr[8] = imgboxTrig8;
+            TrgImgBoxArr[9] = imgboxTrig9;
 
-            TrgScterImgBoxArr = new Image[6];
+            TrgScterImgBoxArr = new Image[10];
             TrgScterImgBoxArr[0] = imgboxScterTrig0;
             TrgScterImgBoxArr[1] = imgboxScterTrig1;
             TrgScterImgBoxArr[2] = imgboxScterTrig2;
             TrgScterImgBoxArr[3] = imgboxScterTrig3;
             TrgScterImgBoxArr[4] = imgboxScterTrig4;
             TrgScterImgBoxArr[5] = imgboxScterTrig5;
+            TrgScterImgBoxArr[6] = imgboxScterTrig6;
+            TrgScterImgBoxArr[7] = imgboxScterTrig7;
+            TrgScterImgBoxArr[8] = imgboxScterTrig8;
+            TrgScterImgBoxArr[9] = imgboxScterTrig9;
 
 
             foreach ( var item in TrgImgBoxArr )
@@ -380,8 +397,10 @@ namespace PLImg_V2
 
         void InitViewWin( )
         {
-            nudlinerate.Value = 4280;
-            nudScanSpeed.Value = 8;
+            nudlinerate.Value = 17120;
+            //nudlinerate.Value = 1070;
+            nudScanSpeed.Value = 32;
+            //nudScanSpeed.Value = 2;
             nudGoXPos.Value = 100;
             nudGoYPos.Value = 50;
             nudGoZPos.Value = 26.190;
@@ -397,6 +416,7 @@ namespace PLImg_V2
             SampleConfig.Add( ScanConfig.Trigger_1  ,rdb1inch);
             SampleConfig.Add( ScanConfig.Trigger_2  ,rdb2inch);
             SampleConfig.Add( ScanConfig.Trigger_4  ,rdb4inch);
+            SampleConfig.Add( ScanConfig.Trigger_6  ,rdb6inch);
         }
 
 

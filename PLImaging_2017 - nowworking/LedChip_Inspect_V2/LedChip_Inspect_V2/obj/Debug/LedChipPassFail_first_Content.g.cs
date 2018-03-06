@@ -13,6 +13,15 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("nvcuda.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("opencv_ffmpeg310_64.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vcruntime140.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("accord.dll.config")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("concrt140.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("cvextern.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("msvcp140.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("opencv_ffmpeg320_64.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vcruntime140.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("concrt140.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("cvextern.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("msvcp140.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("opencv_ffmpeg320.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vcruntime140.dll")]
 
 

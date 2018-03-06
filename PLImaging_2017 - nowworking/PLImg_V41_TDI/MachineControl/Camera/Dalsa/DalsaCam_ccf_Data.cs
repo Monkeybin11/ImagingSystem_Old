@@ -23,6 +23,7 @@ namespace MachineControl.Camera.Dalsa
         public static readonly string ConfigFile_1     =  "T__tdi_1inch.ccf";
         public static readonly string ConfigFile_2     =  "T__tdi_2inch.ccf";
         public static readonly string ConfigFile_4     =  "T__tdi_4inch.ccf";
+        public static readonly string ConfigFile_6     =  "T__tdi_6inch.ccf";
         public static readonly string ConfigFile_Area     =  "Area.ccf";
         public static readonly string ConfigFileNameBase = @"C:\Program Files\Teledyne DALSA\Sapera\CamFiles\User\";
 

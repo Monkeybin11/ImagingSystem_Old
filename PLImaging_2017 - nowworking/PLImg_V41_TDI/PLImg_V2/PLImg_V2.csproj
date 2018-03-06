@@ -226,6 +226,7 @@
     <Compile Include="RS232\RStage.cs" />
     <Compile Include="RS232\SerialCom.cs" />
     <Compile Include="SerialComHelper.cs" />
+    <Compile Include="Shear.cs" />
     <Compile Include="UC_CamComunication.xaml.cs">
       <DependentUpon>UC_CamComunication.xaml</DependentUpon>
     </Compile>

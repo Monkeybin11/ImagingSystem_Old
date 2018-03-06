@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace MachineControl.Camera.Dalsa
 {
-    public enum ScanConfig { Trigger_1, Trigger_2, Trigger_4 , Area , Align}
+    public enum ScanConfig { Trigger_1, Trigger_2, Trigger_4 , Trigger_6 , Area , Align}
 }
