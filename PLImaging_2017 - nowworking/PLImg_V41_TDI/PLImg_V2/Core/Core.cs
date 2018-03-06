@@ -144,6 +144,26 @@ namespace PLImg_V2
             StgEnable = new Dictionary<string, Action>();
             foreach ( var item in GD.YXZ ) StgEnable.Add( item, Stg.Enable( item ) );
 
+            //RunStgBuffer = new Action<ScanConfig>( ( config ) =>
+            //{
+            //    if ( config == ScanConfig.Trigger_1 )
+            //    {
+            //        Stg.StartTrigger( 3 );
+            //    }
+            //    else if ( config == ScanConfig.Trigger_2 )
+            //    {
+            //        Stg.StartTrigger( 4 );
+            //    }
+            //    else if( config == ScanConfig.Trigger_4)
+            //    {
+            //        Stg.StartTrigger( 5 );
+            //    }
+            //    else if ( config == ScanConfig.Trigger_6 )
+            //    {
+            //        Stg.StartTrigger( 6 );
+            //    }
+            //} );
+
             RunStgBuffer = new Action<ScanConfig>( ( config ) =>
             {
                 if ( config == ScanConfig.Trigger_1 )
@@ -152,17 +172,38 @@ namespace PLImg_V2
                 }
                 else if ( config == ScanConfig.Trigger_2 )
                 {
-                    Stg.StartTrigger( 4 );
+                    Stg.StartTrigger( 3 );
                 }
-                else if( config == ScanConfig.Trigger_4)
+                else if ( config == ScanConfig.Trigger_4 )
                 {
-                    Stg.StartTrigger( 5 );
+                    Stg.StartTrigger( 3 );
                 }
                 else if ( config == ScanConfig.Trigger_6 )
                 {
-                    Stg.StartTrigger( 6 );
+                    Stg.StartTrigger( 3 );
                 }
             } );
+
+
+            //StopStgBuffer = new Action<ScanConfig>( ( config ) =>
+            //{
+            //    if ( config == ScanConfig.Trigger_1 )
+            //    {
+            //        Stg.StopTrigger( 3 );
+            //    }
+            //    else if ( config == ScanConfig.Trigger_2 )
+            //    {
+            //        Stg.StopTrigger( 4 );
+            //    }
+            //    else if ( config == ScanConfig.Trigger_4 )
+            //    {
+            //        Stg.StopTrigger( 5 );
+            //    }
+            //    else if ( config == ScanConfig.Trigger_6 )
+            //    {
+            //        Stg.StopTrigger( 6 );
+            //    }
+            //} );
 
             StopStgBuffer = new Action<ScanConfig>( ( config ) =>
             {
@@ -172,15 +213,15 @@ namespace PLImg_V2
                 }
                 else if ( config == ScanConfig.Trigger_2 )
                 {
-                    Stg.StopTrigger( 4 );
+                    Stg.StopTrigger( 3 );
                 }
                 else if ( config == ScanConfig.Trigger_4 )
                 {
-                    Stg.StopTrigger( 5 );
+                    Stg.StopTrigger( 3 );
                 }
                 else if ( config == ScanConfig.Trigger_6 )
                 {
-                    Stg.StopTrigger( 6 );
+                    Stg.StopTrigger( 3 );
                 }
             } );
         }
@@ -254,17 +295,6 @@ namespace PLImg_V2
                     var temp = Buf2Img( currentbuff , 1 )
                                     .Map( x => FlgIsScatter ? x.Normalize((byte)SCBias) : x.Normalize((byte)PLBias));
 
-                    //Bitmap oriimg = temp.ToBitmap().Shearing(0.02,0);
-                    //temp = new Image<Gray, byte>( oriimg );
-
-                    //if ( CurrentConfig != ScanConfig.Trigger_1 )
-                    //{ temp.ROI = TrigScanData.RoiList[CurrentConfig][count]; }
-                    //else
-                    //{
-                    //    temp.ROI = TrigScanData.RoiList[CurrentConfig][count];
-                    //}
-                    //temp = temp.Copy();
-                    // shearing 
                     if ( FlgRemoveBack )
                     {
                         var grad = temp.Clone()
@@ -278,23 +308,18 @@ namespace PLImg_V2
 
                     if ( FlgIsScatter )
                     {
-                        //ScanedPLImage.Add( temp );
                         evtScterImg( temp, count );
                         ProcConfig = ScterConfig.GetInstance();
                     }
                     else
                     {
-                        //ScanedSCImage.Add( temp );
                         evtTrgImg( temp, count );
                         ProcConfig = PLConfig.GetInstance();
                     }
                     evtScanEnd();
                     //Task.Run( () => ChipProcCore.ProcRun2( temp, x => x, ProcConfig ) );
                 } );
-
                 // Get Index Image from event 
-
-
                 // 1 Trigger = 1 Buffer
                 lock ( key )
                 {
@@ -303,16 +328,17 @@ namespace PLImg_V2
                     {
                         TrigCount += 1;
                         //"Move Next Position".Print();
-                        StopStgBuffer( CurrentConfig );
-                        System.Threading.Thread.Sleep( 1000 );
+                        //StopStgBuffer( CurrentConfig );
+                        //System.Threading.Thread.Sleep( 1000 );
                         StgReadyTrigScan( TrigCount, CurrentConfig );
-                        System.Threading.Thread.Sleep( 300 );
+                        System.Threading.Thread.Sleep( 100 );
                         RunStgBuffer( CurrentConfig );
                         System.Threading.Thread.Sleep( 100 );
                         ScanMoveXYstg( "Y", TrigScanData.YEnd, TrigScanData.ScanSpeed );
-						StopStgBuffer( CurrentConfig );
+                        System.Threading.Thread.Sleep( 16000 / TrigScanData.ScanSpeed );
+                        StopStgBuffer( CurrentConfig );
 						Stg.WaitEps( "Y" )( TrigScanData.YEnd, 0.1 );
-                        System.Threading.Thread.Sleep( 300 );
+                       
                         //StopStgBuffer( CurrentConfig );
                     }
                     else

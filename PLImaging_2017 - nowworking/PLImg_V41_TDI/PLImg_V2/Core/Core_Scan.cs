@@ -49,12 +49,13 @@ namespace PLImg_V2
 
         public void StartTrigScan( ScanConfig config )
         {
+            "STart Trigger Scan".Print();
             Cam.Disconnect()();
             CurrentConfig = config;
             TrigLimit = SetTriggerLimit( config );
             TrigCount = 0;
             StopStgBuffer( config );
-            StgReadyTrigScan( 0, config );
+            StgReadyTrigScan( 0, config , true );
 
             System.Threading.Thread.Sleep( 100 );
             ResetCamCofnig( config );
@@ -62,14 +63,24 @@ namespace PLImg_V2
             System.Threading.Thread.Sleep( 100 );
             Grab();
             System.Threading.Thread.Sleep( 100 );
+            MoveXYstg( "Y", TrigScanData.YStart );
+            Stg.WaitEps( "Y" )( TrigScanData.YStart, 0.1 );
+            System.Threading.Thread.Sleep( 100 );
             //ScanMoveXYstg( "Y", TrigScanData.EndYPos[config], TrigScanData.Scan_Stage_Speed );
-            ScanMoveXYstg( "Y", TrigScanData.YStart , TrigScanData.ScanSpeed );
+            ScanMoveXYstg( "Y", TrigScanData.YEnd , TrigScanData.ScanSpeed );
+            System.Threading.Thread.Sleep( 16000 / TrigScanData.ScanSpeed );
+            StopStgBuffer( CurrentConfig );
         }
 
-        void StgReadyTrigScan( int triggerNum, ScanConfig config )
+        void StgReadyTrigScan( int triggerNum, ScanConfig config , bool startonend = false )
         {
             //Console.WriteLine( $"Stage Ready Line Number = {triggerNum}" );
             var nextYpos = TrigScanData.YStart;
+            if ( startonend )
+            {
+                nextYpos = TrigScanData.YEnd;
+            }
+
 			//var nextXpos = TrigScanData.StartXPos[config] - TrigScanData.XStep_Size * triggerNum;
 			var nextXpos = TrigScanData.XstartList[triggerNum];
 

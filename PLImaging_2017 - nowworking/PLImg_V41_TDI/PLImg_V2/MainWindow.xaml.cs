@@ -176,7 +176,7 @@ namespace PLImg_V2
 
 
             ucComunication.SetLine();
-            ucComunication.SetLineRate( (int)nudlinerate.Value );
+           
             if ( (bool)ckbScatter.IsChecked ) Core.FlgIsScatter = true;
             else Core.FlgIsScatter = false;
 
@@ -193,6 +193,7 @@ namespace PLImg_V2
                 {
                     ResizeTriggerImgBox( item.Key );
 					Core.TrigScanData = ucScanconfig.GetConfigs().ToScanData();
+                    ucComunication.SetLineRate( (int)Core.TrigScanData.LineRate );
                     Core.StartTrigScan( item.Key );
                 }
             }

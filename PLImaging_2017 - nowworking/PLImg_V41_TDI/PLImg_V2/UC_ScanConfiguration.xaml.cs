@@ -82,8 +82,8 @@ namespace PLImg_V2
 			if ( !File.Exists( fullpath ) )
 			{
 				var sb = new  StringBuilder();
-				sb.Append( "150,78,22.1, 44.2, 66.3, 88.4, 110.5, 132.6,4280,8" );
-				File.WriteAllText( sb.ToString(), fullpath );
+				sb.Append( "168.5,60,154.7,132.6,110.5,88.4,66.3,44.2, 22.1,4280,8" );
+				File.WriteAllText( fullpath, sb.ToString() );
 			}
 			FileStream fs = new FileStream(fullpath , FileMode.Open);
 			StreamReader sr = new StreamReader(fs , Encoding.UTF8);
