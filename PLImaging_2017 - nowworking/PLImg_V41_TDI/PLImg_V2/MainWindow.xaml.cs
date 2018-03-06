@@ -191,11 +191,21 @@ namespace PLImg_V2
             {
                 if ( item.Value.IsChecked == true )
                 {
+                    ResetImage();
                     ResizeTriggerImgBox( item.Key );
 					Core.TrigScanData = ucScanconfig.GetConfigs().ToScanData();
                     ucComunication.SetLineRate( (int)Core.TrigScanData.LineRate );
                     Core.StartTrigScan( item.Key );
                 }
+            }
+        }
+
+        void ResetImage()
+        {
+            for ( int i = 0; i < TrgImgBoxArr.Length; i++ )
+            {
+                TrgImgBoxArr[i].Source = null;
+                TrgScterImgBoxArr[i].Source = null;
             }
         }
 
@@ -247,7 +257,6 @@ namespace PLImg_V2
                 TrgScterImgBoxArr[i].Width = 0;
                 TrgScterImgBoxArr[i].Height = h;
             }
-
         }
 
 
@@ -272,21 +281,14 @@ namespace PLImg_V2
                        //string filename2 = savePath + "\\PL8_" + i.ToString("D3") + ".png";
                        //var i8 =PLImageList[i].Resize( 0.8, Inter.Cubic );
                        //i8.Save( filename2 );
-
-                      
-
-
                     }
                     for ( int i = 0; i < SCImageList.Count; i++ )
                     {
                         string filenameScatter = savePath + "\\Scatter_" + i.ToString("D3") + ".png";
                         SCImageList[i].Save( filenameScatter );
-
                        // string filenameScatter2 = savePath + "\\Scatter8_" + i.ToString("D3") + ".png";
                        // var i8 =SCImageList[i].Resize( 0.8, Inter.Cubic );
                        // i8.Save( filenameScatter2 );
-
-
 
                     }
                    
@@ -309,11 +311,6 @@ namespace PLImg_V2
                         .Aggregate((f,s) => s == null ? f : f.ConcateHorizontal(s) );
                             resultsc.Save( savePath + "\\FullSC.png" );
                         }
-
-                       
-                       
-
-
                     }
                     catch ( Exception ex )
                     {
